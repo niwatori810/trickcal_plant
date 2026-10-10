@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Web開発やプログラミングで作ったものを紹介するポートフォリオサイトです。">
+  <title>MySite | ポートフォリオ</title>
+  <style>
+    :root {
+      --blue: #2878f0;
+      --ink: #263d56;
+      --muted: #60758d;
+      --pale: #f3f7fc;
+      --line: #e4ebf4;
+      --white: #fff;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", "Noto Sans JP", sans-serif;
+      color: var(--ink);
+      line-height: 1.75;
+      background: var(--white);
+    }
+    a { color: inherit; text-decoration: none; }
+    .container { width: min(1010px, calc(100% - 40px)); margin: 0 auto; }
+    header {
+      height: 64px;
+      background: rgba(255,255,255,.96);
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      backdrop-filter: blur(12px);
+    }
+    .nav { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    .logo { font-size: 1.25rem; font-weight: 800; letter-spacing: .02em; }
+    .logo-mark {
+      display: inline-block; width: 17px; height: 20px; margin-right: 9px;
+      background: var(--blue); border-radius: 7px 7px 7px 2px; transform: skew(-10deg);
+      vertical-align: -3px;
+    }
+    nav { display: flex; align-items: center; gap: 25px; font-size: .88rem; }
+    nav a { color: var(--muted); transition: color .2s; }
+    nav a:hover, nav a.active { color: var(--blue); }
+    .hero {
+      color: white;
+      min-height: 320px;
+      display: flex;
+      align-items: center;
+      background:
+        linear-gradient(90deg, rgba(31,91,155,.64), rgba(47,133,202,.18)),
+        linear-gradient(180deg, #6ab0e6 0%, #a9d4f1 65%, #7bb5dd 100%);
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before, .hero::after {
+      content: ""; position: absolute; left: -5%; right: -5%; bottom: 0; pointer-events: none;
+    }
+    .hero::before {
+      height: 115px; opacity: .45;
+      background: #4f8fbe;
+      clip-path: polygon(0 70%, 8% 48%, 17% 76%, 27% 64%, 37% 84%, 49% 56%, 60% 76%, 72% 48%, 84% 68%, 94% 35%, 100% 55%, 100% 100%, 0 100%);
+    }
+    .hero::after {
+      height: 52px; background: rgba(231,247,255,.25);
+      clip-path: polygon(0 35%, 15% 20%, 31% 45%, 48% 15%, 64% 35%, 80% 18%, 100% 30%, 100% 100%, 0 100%);
+    }
+    .hero-content { position: relative; z-index: 1; padding: 52px 0 60px; }
+    .hero h1 { margin: 0 0 16px; font-size: clamp(2rem, 4.2vw, 2.65rem); line-height: 1.4; letter-spacing: .02em; }
+    .hero p { margin: 0 0 24px; color: rgba(255,255,255,.94); }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; }
+    .button {
+      display: inline-flex; align-items: center; justify-content: center;
+      min-width: 128px; padding: 10px 20px; border-radius: 7px;
+      font-weight: 700; font-size: .92rem; border: 1px solid white;
+      transition: transform .2s, background .2s;
+    }
+    .button:hover { transform: translateY(-2px); }
+    .button.primary { background: var(--blue); border-color: var(--blue); color: white; }
+    .button.secondary { background: rgba(255,255,255,.12); color: white; }
+    section { padding: 34px 0; }
+    .section-title { margin: 0 0 20px; font-size: 1.55rem; line-height: 1.4; }
+    .section-title::after { content: ""; display: block; width: 30px; height: 3px; margin-top: 9px; background: var(--blue); }
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 48px; }
+    .about-copy p { margin: 0; color: #405872; }
+    .socials { display: flex; gap: 18px; margin-top: 16px; }
+    .socials a { color: var(--ink); font-weight: 700; }
+    .socials a:hover { color: var(--blue); }
+    .about-panel {
+      border-radius: 12px; background: #f0f6fd; padding: 24px;
+      display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: center;
+    }
+    .laptop {
+      min-height: 112px; display: grid; place-items: center; color: #fff;
+      font-size: 2.6rem; font-weight: 700;
+      background: linear-gradient(145deg, #9fc6f4, #477fbd);
+      border: 8px solid #d8e8fa; border-radius: 12px;
+      box-shadow: 0 8px 0 #aec8e5; text-shadow: 0 2px 3px #3b6596;
+    }
+    .about-panel h3 { margin: 0 0 6px; font-size: 1rem; }
+    .about-panel ul { margin: 0; padding-left: 1.1em; color: #405872; font-size: .92rem; }
+    .projects { background: linear-gradient(135deg, #f4f8fc, #edf3fa); }
+    .section-heading { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+    .all-link { color: var(--blue); font-size: .88rem; white-space: nowrap; }
+    .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .card {
+      overflow: hidden; background: white; border: 1px solid #e8eef5;
+      border-radius: 10px; padding: 10px 10px 14px;
+      box-shadow: 0 4px 16px rgba(39,76,117,.035);
+      transition: transform .2s, box-shadow .2s;
+    }
+    .card:hover { transform: translateY(-4px); box-shadow: 0 10px 25px rgba(39,76,117,.10); }
+    .project-art {
+      height: 100px; border-radius: 7px; display: grid; place-items: center;
+      margin-bottom: 10px; font-size: 2.6rem; color: white;
+    }
+    .art-task { background: linear-gradient(135deg, #e0e8ff, #c7d8fb); }
+    .art-calc { background: linear-gradient(135deg, #252b37, #414b5e); }
+    .art-portfolio { background: linear-gradient(135deg, #b9b7f4, #f5c5d8 52%, #f9d7ac); }
+    .mini-window {
+      width: 100px; height: 66px; border-radius: 5px; background: white;
+      box-shadow: 0 3px 10px #6f8db733; padding: 9px; color: #4381d6; font-size: .8rem;
+    }
+    .mini-window span { display: block; height: 5px; margin: 5px 0; border-radius: 3px; background: #dce6f4; }
+    .card h3 { margin: 0 5px 3px; font-size: .98rem; }
+    .card p { margin: 0 5px 8px; color: var(--muted); font-size: .83rem; line-height: 1.65; }
+    .card-link { margin: 0 5px; color: var(--blue); font-size: .85rem; font-weight: 650; }
+    footer { padding: 18px 0; color: var(--muted); font-size: .8rem; }
+    .footer-inner { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+    footer p { margin: 0; }
+    @media (max-width: 700px) {
+      .container { width: min(100% - 28px, 520px); }
+      header { height: auto; min-height: 62px; padding: 12px 0; }
+      .nav { align-items: flex-start; flex-direction: column; gap: 8px; }
+      nav { width: 100%; gap: 16px; overflow-x: auto; padding-bottom: 2px; }
+      nav a { white-space: nowrap; }
+      .hero { min-height: 330px; }
+      .hero-content { padding: 44px 0; }
+      .about-grid { grid-template-columns: 1fr; gap: 24px; }
+      .about-panel { grid-template-columns: 1fr 1fr; padding: 18px; }
+      .cards { grid-template-columns: 1fr; }
+      .project-art { height: 130px; }
+      .footer-inner { flex-direction: column; align-items: flex-start; gap: 4px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="logo" href="#home"><span class="logo-mark"></span>MySite</a>
+      <nav aria-label="メインナビゲーション">
+        <a class="active" href="#home">ホーム</a>
+        <a href="#about">について</a>
+        <a href="#projects">作品</a>
+        <a href="#blog">ブログ</a>
+        <a href="#contact">お問い合わせ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <h1>つくることで、<br>ちょっと楽しい未来を。</h1>
+        <p>Web開発やプログラミングを通して、<br>便利で楽しいものを作ることを目指しています。</p>
+        <div class="actions">
+          <a class="button primary" href="#projects">作品を見る</a>
+          <a class="button secondary" href="mailto:hello@example.com">お問い合わせ</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <h2 class="section-title">About</h2>
+          <p>はじめまして。このサイトを運営しているのは、Web開発が好きなエンジニアです。<br>日々、JavaScriptやHTML/CSSを使って、いろいろなものを作っています。</p>
+          <div class="socials">
+            <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a href="https://x.com/" target="_blank" rel="noreferrer">X ↗</a>
+            <a href="mailto:hello@example.com">メール ↗</a>
+          </div>
+        </div>
+        <div class="about-panel">
+          <div class="laptop" aria-label="プログラミングのイラスト">&lt;/&gt;</div>
+          <div>
+            <h3>好きなこと</h3>
+            <ul>
+              <li>プログラミング</li>
+              <li>Webサービス作り</li>
+              <li>カフェ巡り</li>
+              <li>旅行</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <h2 class="section-title">作品</h2>
+          <a class="all-link" href="#projects">すべて見る →</a>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="project-art art-task" aria-hidden="true">
+              <div class="mini-window">☑ タスク<span></span>☑ 買い物<span></span>☐ 勉強</div>
+            </div>
+            <h3>やることリストアプリ</h3>
+            <p>シンプルで使いやすいタスク管理ツールです。ローカルにデータを保存できます。</p>
+            <a class="card-link" href="#contact">詳しく見る →</a>
+          </article>
+          <article class="card">
+            <div class="project-art art-calc" aria-hidden="true">＋ − × ÷</div>
+            <h3>電卓アプリ</h3>
+            <p>基本的な計算ができるシンプルな電卓です。JavaScriptで作成しました。</p>
+            <a class="card-link" href="#contact">詳しく見る →</a>
+          </article>
+          <article class="card">
+            <div class="project-art art-portfolio" aria-hidden="true">◆</div>
+            <h3>ポートフォリオサイト</h3>
+            <p>このサイト自体のサンプルです。HTML/CSSを使って作りました。</p>
+            <a class="card-link" href="#about">詳しく見る →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog">
+      <div class="container">
+        <h2 class="section-title">ブログ</h2>
+        <p>学んだことや制作メモを、これから少しずつまとめていきます。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="container footer-inner">
+      <p>© 2026 MySite. All rights reserved.</p>
+      <p><a href="mailto:hello@example.com">お問い合わせ：hello@example.com</a></p>
+    </div>
+  </footer>
+</body>
+</html>
