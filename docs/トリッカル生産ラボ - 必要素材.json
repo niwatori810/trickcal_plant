@@ -1,0 +1,191 @@
+{
+  "levels": [
+    {
+      "level": 2,
+      "reward": "建物拡張(研究室開放)、研究2段階開放、レシピ47個開放",
+      "materials": [
+        {
+          "materialId": "C9",
+          "materialName": "固い石",
+          "count": 10
+        },
+        {
+          "materialId": "N0",
+          "materialName": "地球から来た鉛",
+          "count": 10
+        }
+      ],
+      "gold": 7000
+    },
+    {
+      "level": 3,
+      "reward": "研究3段階開放、レシピ38個開放",
+      "materials": [
+        {
+          "materialId": "C9",
+          "materialName": "固い石",
+          "count": 15
+        },
+        {
+          "materialId": "N6",
+          "materialName": "バラバラの基板",
+          "count": 15
+        }
+      ],
+      "gold": 15000
+    },
+    {
+      "level": 4,
+      "reward": "建物拡張(未実装)、研究4段階開放、レシピ20個開放",
+      "materials": [
+        {
+          "materialId": "C9",
+          "materialName": "固い石",
+          "count": 20
+        },
+        {
+          "materialId": "N1",
+          "materialName": "柔らか金属",
+          "count": 20
+        }
+      ],
+      "gold": 30000
+    },
+    {
+      "level": 5,
+      "reward": "研究5段階開放、レシピ11個開放",
+      "materials": [
+        {
+          "materialId": "",
+          "materialName": "つんつんゼンマイ",
+          "count": 10
+        },
+        {
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 10
+        }
+      ],
+      "gold": 70000
+    },
+    {
+      "level": 6,
+      "reward": "研究6段階開放",
+      "materials": [
+        {
+          "materialId": "",
+          "materialName": "つんつんゼンマイ",
+          "count": 15
+        },
+        {
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 15
+        }
+      ],
+      "gold": 150000
+    },
+    {
+      "level": 7,
+      "reward": "研究7段階開放",
+      "materials": [
+        {
+          "materialId": "",
+          "materialName": "つんつんゼンマイ",
+          "count": 20
+        },
+        {
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 20
+        }
+      ],
+      "gold": 300000
+    },
+    {
+      "level": 8,
+      "reward": "研究8段階開放",
+      "materials": [
+        {
+          "materialId": "",
+          "materialName": "つんつんゼンマイ",
+          "count": 25
+        },
+        {
+          "materialId": "",
+          "materialName": "LED電球",
+          "count": 25
+        }
+      ],
+      "gold": 700000
+    },
+    {
+      "level": 9,
+      "reward": "研究9段階開放",
+      "materials": [
+        {
+          "materialId": "",
+          "materialName": "尖った釘",
+          "count": 20
+        },
+        {
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 10
+        }
+      ],
+      "gold": 1000000
+    },
+    {
+      "level": 10,
+      "reward": "研究10段階開放",
+      "materials": [
+        {
+          "materialId": "",
+          "materialName": "尖った釘",
+          "count": 25
+        },
+        {
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 15
+        }
+      ],
+      "gold": 1500000
+    },
+    {
+      "level": 11,
+      "reward": "研究11段階開放",
+      "materials": [
+        {
+          "materialId": "",
+          "materialName": "尖った釘",
+          "count": 30
+        },
+        {
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 20
+        }
+      ],
+      "gold": 2000000
+    },
+    {
+      "level": 12,
+      "reward": "研究12段階開放",
+      "materials": [
+        {
+          "materialId": "",
+          "materialName": "尖った釘",
+          "count": 35
+        },
+        {
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 25
+        }
+      ],
+      "gold": 2500000
+    }
+  ]
+}
