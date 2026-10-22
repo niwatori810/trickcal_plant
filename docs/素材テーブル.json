@@ -1,0 +1,683 @@
+{
+  "materials": [
+    {
+      "id": "SR0",
+      "name": "感性コア",
+      "level": 3,
+      "category": "研究材料",
+      "recipe": [
+        {
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 1
+        },
+        {
+          "materialId": "N1",
+          "materialName": "柔らか金属",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SR1",
+      "name": "徹夜アイマスク",
+      "level": 3,
+      "category": "研究材料",
+      "recipe": [
+        {
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 1
+        },
+        {
+          "materialId": "N0",
+          "materialName": "地球から来た鉛",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SR2",
+      "name": "金の匙",
+      "level": 3,
+      "category": "研究材料",
+      "recipe": [
+        {
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 1
+        },
+        {
+          "materialId": "N3",
+          "materialName": "曲がった針金",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SR3",
+      "name": "キャラのハンコ",
+      "level": 3,
+      "category": "家具・コレクション用材料",
+      "recipe": [
+        {
+          "materialId": "R2",
+          "materialName": "こねこね粘土",
+          "count": 1
+        },
+        {
+          "materialId": "N2",
+          "materialName": "手形",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SR4",
+      "name": "宝石のボタン",
+      "level": 3,
+      "category": "家具・コレクション用材料",
+      "recipe": [
+        {
+          "materialId": "R4",
+          "materialName": "名人の設計図",
+          "count": 1
+        },
+        {
+          "materialId": "N4",
+          "materialName": "まるまるボタン",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SR5",
+      "name": "メジャー",
+      "level": 3,
+      "category": "家具・コレクション用材料",
+      "recipe": [
+        {
+          "materialId": "R5",
+          "materialName": "やわらか布",
+          "count": 1
+        },
+        {
+          "materialId": "N5",
+          "materialName": "15cmの定規",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "R0",
+      "name": "S電子半導体",
+      "level": 2,
+      "category": "研究材料",
+      "recipe": [
+        {
+          "materialId": "N0",
+          "materialName": "地球から来た鉛",
+          "count": 2
+        },
+        {
+          "materialId": "C0",
+          "materialName": "睡眠アイマスク",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "R1",
+      "name": "MUSIMチップ",
+      "level": 2,
+      "category": "研究材料",
+      "recipe": [
+        {
+          "materialId": "N6",
+          "materialName": "バラバラの基板",
+          "count": 2
+        },
+        {
+          "materialId": "C1",
+          "materialName": "サラサラの鉄粉",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "R2",
+      "name": "こねこね粘土",
+      "level": 2,
+      "category": "家具・コレクション用材料",
+      "recipe": [
+        {
+          "materialId": "N7",
+          "materialName": "EGOブロック",
+          "count": 2
+        },
+        {
+          "materialId": "C3",
+          "materialName": "やわらか粘土",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "R3",
+      "name": "バッテリーパック",
+      "level": 2,
+      "category": "研究材料",
+      "recipe": [
+        {
+          "materialId": "N1",
+          "materialName": "柔らか金属",
+          "count": 2
+        },
+        {
+          "materialId": "C1",
+          "materialName": "サラサラの鉄粉",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "R4",
+      "name": "名人の設計図",
+      "level": 2,
+      "category": "家具・コレクション用材料",
+      "recipe": [
+        {
+          "materialId": "N5",
+          "materialName": "15cmの定規",
+          "count": 2
+        },
+        {
+          "materialId": "C7",
+          "materialName": "尖った針",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "R5",
+      "name": "やわらか布",
+      "level": 2,
+      "category": "家具・コレクション用材料",
+      "recipe": [
+        {
+          "materialId": "N8",
+          "materialName": "ひらひらレース",
+          "count": 2
+        },
+        {
+          "materialId": "C4",
+          "materialName": "ごわごわの布切れ",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "R6",
+      "name": "LED電球",
+      "level": 2,
+      "category": "研究材料",
+      "recipe": [
+        {
+          "materialId": "N3",
+          "materialName": "曲がった針金",
+          "count": 2
+        },
+        {
+          "materialId": "C2",
+          "materialName": "パリパリの金箔",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "R7",
+      "name": "尖った釘",
+      "level": 2,
+      "category": "研究材料",
+      "recipe": [
+        {
+          "materialId": "N10",
+          "materialName": "つんつんゼンマイ",
+          "count": 2
+        },
+        {
+          "materialId": "C7",
+          "materialName": "尖った針",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "R8",
+      "name": "弾性バネ",
+      "level": 2,
+      "category": "家具・コレクション用材料",
+      "recipe": [
+        {
+          "materialId": "N11",
+          "materialName": "ポイント装飾",
+          "count": 2
+        },
+        {
+          "materialId": "C11",
+          "materialName": "曲がったもの",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "R9",
+      "name": "光沢紙",
+      "level": 2,
+      "category": "家具・コレクション用材料",
+      "recipe": [
+        {
+          "materialId": "N9",
+          "materialName": "3W光沢剤",
+          "count": 2
+        },
+        {
+          "materialId": "C6",
+          "materialName": "湿っぽい紙の原料",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "R10",
+      "name": "ネオンサイン",
+      "level": 2,
+      "category": "家具・コレクション用材料",
+      "recipe": [
+        {
+          "materialId": "N13",
+          "materialName": "コミッション使用権",
+          "count": 2
+        },
+        {
+          "materialId": "C14",
+          "materialName": "ウィンクウィンク",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "R11",
+      "name": "高品質イラスト",
+      "level": 2,
+      "category": "家具・コレクション用材料",
+      "recipe": [
+        {
+          "materialId": "N12",
+          "materialName": "本物の証",
+          "count": 2
+        },
+        {
+          "materialId": "C14",
+          "materialName": "ウィンクウィンク",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "R12",
+      "name": "モカ綿",
+      "level": 2,
+      "category": "家具・コレクション用材料",
+      "recipe": [
+        {
+          "materialId": "N2",
+          "materialName": "手形",
+          "count": 2
+        },
+        {
+          "materialId": "C5",
+          "materialName": "ふわふわ綿",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "R13",
+      "name": "致命的なレース",
+      "level": 2,
+      "category": "家具・コレクション用材料",
+      "recipe": [
+        {
+          "materialId": "N8",
+          "materialName": "ひらひらレース",
+          "count": 2
+        },
+        {
+          "materialId": "C13",
+          "materialName": "虹の花の汁",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "R14",
+      "name": "安全な針",
+      "level": 2,
+      "category": "家具・コレクション用材料",
+      "recipe": [
+        {
+          "materialId": "N4",
+          "materialName": "まるまるボタン",
+          "count": 2
+        },
+        {
+          "materialId": "C7",
+          "materialName": "尖った針",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "N0",
+      "name": "地球から来た鉛",
+      "level": 1,
+      "category": "研究材料",
+      "recipe": [
+        {
+          "materialId": "C1",
+          "materialName": "サラサラの鉄粉",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "name": "柔らか金属",
+      "level": 1,
+      "category": "研究材料",
+      "recipe": [
+        {
+          "materialId": "C8",
+          "materialName": "再生プラスチック",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "name": "手形",
+      "level": 1,
+      "category": "家具・コレクション用材料",
+      "recipe": [
+        {
+          "materialId": "C3",
+          "materialName": "やわらか粘土",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "name": "曲がった針金",
+      "level": 1,
+      "category": "研究材料",
+      "recipe": [
+        {
+          "materialId": "C10",
+          "materialName": "銅の匙",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "name": "まるまるボタン",
+      "level": 1,
+      "category": "家具・コレクション用材料",
+      "recipe": [
+        {
+          "materialId": "C5",
+          "materialName": "ふわふわ綿",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "name": "15cmの定規",
+      "level": 1,
+      "category": "家具・コレクション用材料",
+      "recipe": [
+        {
+          "materialId": "C15",
+          "materialName": "レザーウッドの葉",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "name": "バラバラの基板",
+      "level": 1,
+      "category": "研究材料",
+      "recipe": [
+        {
+          "materialId": "C2",
+          "materialName": "パリパリの金箔",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "name": "EGOブロック",
+      "level": 1,
+      "category": "家具・コレクション用材料",
+      "recipe": [
+        {
+          "materialId": "C11",
+          "materialName": "曲がったもの",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "name": "ひらひらレース",
+      "level": 1,
+      "category": "家具・コレクション用材料",
+      "recipe": [
+        {
+          "materialId": "C4",
+          "materialName": "ごわごわの布切れ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "N9",
+      "name": "3W光沢剤",
+      "level": 1,
+      "category": "家具・コレクション用材料",
+      "recipe": [
+        {
+          "materialId": "C12",
+          "materialName": "キラキラのガラス",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "name": "つんつんゼンマイ",
+      "level": 1,
+      "category": "研究材料",
+      "recipe": [
+        {
+          "materialId": "C9",
+          "materialName": "固い石",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "N11",
+      "name": "ポイント装飾",
+      "level": 1,
+      "category": "家具・コレクション用材料",
+      "recipe": [
+        {
+          "materialId": "C13",
+          "materialName": "虹の花の汁",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "N12",
+      "name": "本物の証",
+      "level": 1,
+      "category": "家具・コレクション用材料",
+      "recipe": [
+        {
+          "materialId": "C14",
+          "materialName": "ウィンクウィンク",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "N13",
+      "name": "コミッション使用権",
+      "level": 1,
+      "category": "家具・コレクション用材料",
+      "recipe": [
+        {
+          "materialId": "C6",
+          "materialName": "湿っぽい紙の原料",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "C0",
+      "name": "睡眠アイマスク",
+      "level": 0,
+      "category": "基本素材",
+      "recipe": []
+    },
+    {
+      "id": "C1",
+      "name": "サラサラの鉄粉",
+      "level": 0,
+      "category": "基本素材",
+      "recipe": []
+    },
+    {
+      "id": "C2",
+      "name": "パリパリの金箔",
+      "level": 0,
+      "category": "基本素材",
+      "recipe": []
+    },
+    {
+      "id": "C3",
+      "name": "やわらか粘土",
+      "level": 0,
+      "category": "基本素材",
+      "recipe": []
+    },
+    {
+      "id": "C4",
+      "name": "ごわごわの布切れ",
+      "level": 0,
+      "category": "基本素材",
+      "recipe": []
+    },
+    {
+      "id": "C5",
+      "name": "ふわふわ綿",
+      "level": 0,
+      "category": "基本素材",
+      "recipe": []
+    },
+    {
+      "id": "C6",
+      "name": "湿っぽい紙の原料",
+      "level": 0,
+      "category": "基本素材",
+      "recipe": []
+    },
+    {
+      "id": "C7",
+      "name": "尖った針",
+      "level": 0,
+      "category": "基本素材",
+      "recipe": []
+    },
+    {
+      "id": "C8",
+      "name": "再生プラスチック",
+      "level": 0,
+      "category": "基本素材",
+      "recipe": []
+    },
+    {
+      "id": "C9",
+      "name": "固い石",
+      "level": 0,
+      "category": "基本素材",
+      "recipe": []
+    },
+    {
+      "id": "C10",
+      "name": "銅の匙",
+      "level": 0,
+      "category": "基本素材",
+      "recipe": []
+    },
+    {
+      "id": "C11",
+      "name": "曲がったもの",
+      "level": 0,
+      "category": "基本素材",
+      "recipe": []
+    },
+    {
+      "id": "C12",
+      "name": "キラキラのガラス",
+      "level": 0,
+      "category": "基本素材",
+      "recipe": []
+    },
+    {
+      "id": "C13",
+      "name": "虹の花の汁",
+      "level": 0,
+      "category": "基本素材",
+      "recipe": []
+    },
+    {
+      "id": "C14",
+      "name": "ウィンクウィンク",
+      "level": 0,
+      "category": "基本素材",
+      "recipe": []
+    },
+    {
+      "id": "C15",
+      "name": "レザーウッドの葉",
+      "level": 0,
+      "category": "基本素材",
+      "recipe": []
+    },
+    {
+      "id": "C16",
+      "name": "加工しやすい木",
+      "level": 0,
+      "category": "基本素材",
+      "recipe": []
+    }
+  ]
+}
