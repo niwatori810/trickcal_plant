@@ -11,7 +11,7 @@
           "count": 10
         },
         {
-          "materialId": "",
+          "materialId": "C16",
           "materialName": "加工しやすい木",
           "count": 20
         }
@@ -29,7 +29,7 @@
           "count": 20
         },
         {
-          "materialId": "",
+          "materialId": "C16",
           "materialName": "加工しやすい木",
           "count": 30
         }
@@ -47,7 +47,7 @@
           "count": 30
         },
         {
-          "materialId": "",
+          "materialId": "C16",
           "materialName": "加工しやすい木",
           "count": 40
         }
@@ -60,12 +60,12 @@
       "requiredLeaderLevel": "30",
       "materials": [
         {
-          "materialId": "",
+          "materialId": "N10",
           "materialName": "つんつんゼンマイ",
           "count": 10
         },
         {
-          "materialId": "",
+          "materialId": "C16",
           "materialName": "加工しやすい木",
           "count": 50
         }
@@ -78,12 +78,12 @@
       "requiredLeaderLevel": "40",
       "materials": [
         {
-          "materialId": "",
+          "materialId": "N10",
           "materialName": "つんつんゼンマイ",
           "count": 20
         },
         {
-          "materialId": "",
+          "materialId": "C16",
           "materialName": "加工しやすい木",
           "count": 60
         }
@@ -96,12 +96,12 @@
       "requiredLeaderLevel": "50",
       "materials": [
         {
-          "materialId": "",
+          "materialId": "N10",
           "materialName": "つんつんゼンマイ",
           "count": 30
         },
         {
-          "materialId": "",
+          "materialId": "C16",
           "materialName": "加工しやすい木",
           "count": 70
         }
@@ -114,12 +114,12 @@
       "requiredLeaderLevel": "60",
       "materials": [
         {
-          "materialId": "",
+          "materialId": "R7",
           "materialName": "尖った釘",
           "count": 10
         },
         {
-          "materialId": "",
+          "materialId": "C16",
           "materialName": "加工しやすい木",
           "count": 80
         }
@@ -132,12 +132,12 @@
       "requiredLeaderLevel": "70",
       "materials": [
         {
-          "materialId": "",
+          "materialId": "R7",
           "materialName": "尖った釘",
           "count": 20
         },
         {
-          "materialId": "",
+          "materialId": "C16",
           "materialName": "加工しやすい木",
           "count": 90
         }
@@ -150,12 +150,12 @@
       "requiredLeaderLevel": "?",
       "materials": [
         {
-          "materialId": "",
+          "materialId": "R7",
           "materialName": "尖った釘",
           "count": 30
         },
         {
-          "materialId": "",
+          "materialId": "C16",
           "materialName": "加工しやすい木",
           "count": 100
         }
