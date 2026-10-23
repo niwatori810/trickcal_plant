@@ -56,7 +56,7 @@
       "reward": "研究5段階開放、レシピ11個開放",
       "materials": [
         {
-          "materialId": "",
+          "materialId": "N10",
           "materialName": "つんつんゼンマイ",
           "count": 10
         },
@@ -73,7 +73,7 @@
       "reward": "研究6段階開放",
       "materials": [
         {
-          "materialId": "",
+          "materialId": "N10",
           "materialName": "つんつんゼンマイ",
           "count": 15
         },
@@ -90,7 +90,7 @@
       "reward": "研究7段階開放",
       "materials": [
         {
-          "materialId": "",
+          "materialId": "N10",
           "materialName": "つんつんゼンマイ",
           "count": 20
         },
@@ -107,12 +107,12 @@
       "reward": "研究8段階開放",
       "materials": [
         {
-          "materialId": "",
+          "materialId": "N10",
           "materialName": "つんつんゼンマイ",
           "count": 25
         },
         {
-          "materialId": "",
+          "materialId": "R6",
           "materialName": "LED電球",
           "count": 25
         }
@@ -124,7 +124,7 @@
       "reward": "研究9段階開放",
       "materials": [
         {
-          "materialId": "",
+          "materialId": "R7",
           "materialName": "尖った釘",
           "count": 20
         },
@@ -141,7 +141,7 @@
       "reward": "研究10段階開放",
       "materials": [
         {
-          "materialId": "",
+          "materialId": "R7",
           "materialName": "尖った釘",
           "count": 25
         },
@@ -158,7 +158,7 @@
       "reward": "研究11段階開放",
       "materials": [
         {
-          "materialId": "",
+          "materialId": "R7",
           "materialName": "尖った釘",
           "count": 30
         },
@@ -175,7 +175,7 @@
       "reward": "研究12段階開放",
       "materials": [
         {
-          "materialId": "",
+          "materialId": "R7",
           "materialName": "尖った釘",
           "count": 35
         },

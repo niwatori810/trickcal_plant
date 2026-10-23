@@ -26,7 +26,7 @@
         },
         {
           "name": "生産スロット増加",
-          "materialId": "",
+          "materialId": "N10",
           "materialName": "つんつんゼンマイ",
           "count": 3,
           "gold": 20000
@@ -346,7 +346,7 @@
         },
         {
           "name": "フォロー指定数増加",
-          "materialId": "",
+          "materialId": "R6",
           "materialName": "LED電球",
           "count": 3,
           "gold": 100000
@@ -666,7 +666,7 @@
         },
         {
           "name": "宴会場キッチンコンロ増加",
-          "materialId": "",
+          "materialId": "R6",
           "materialName": "LED電球",
           "count": 4,
           "gold": 60000
@@ -986,7 +986,7 @@
         },
         {
           "name": "フォロー指定数増加",
-          "materialId": "",
+          "materialId": "R6",
           "materialName": "LED電球",
           "count": 4,
           "gold": 200000
@@ -1306,7 +1306,7 @@
         },
         {
           "name": "生産スロット増加",
-          "materialId": "",
+          "materialId": "N10",
           "materialName": "つんつんゼンマイ",
           "count": 5,
           "gold": 100000
@@ -1626,7 +1626,7 @@
         },
         {
           "name": "フォロー指定数増加",
-          "materialId": "",
+          "materialId": "R6",
           "materialName": "LED電球",
           "count": 5,
           "gold": 300000
@@ -1946,7 +1946,7 @@
         },
         {
           "name": "宴会場キッチンコンロ増加",
-          "materialId": "",
+          "materialId": "R6",
           "materialName": "LED電球",
           "count": 6,
           "gold": 140000
@@ -2266,7 +2266,7 @@
         },
         {
           "name": "フォロー指定数増加",
-          "materialId": "",
+          "materialId": "R6",
           "materialName": "LED電球",
           "count": 6,
           "gold": 400000
@@ -2586,7 +2586,7 @@
         },
         {
           "name": "生産スロット増加",
-          "materialId": "",
+          "materialId": "N10",
           "materialName": "つんつんゼンマイ",
           "count": 7,
           "gold": 180000
@@ -2906,7 +2906,7 @@
         },
         {
           "name": "フォロー指定数増加",
-          "materialId": "",
+          "materialId": "R6",
           "materialName": "LED電球",
           "count": 7,
           "gold": 500000
