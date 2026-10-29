@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>トリッカル 素材計算</title>
+<!--__STYLE__-->
+</head>
+<body>
+<a class="skip-link" href="#main">本文へ</a>
+
+<header class="app-header">
+  <div class="brand">
+    <p class="eyebrow">TRICKCAL / MATERIAL DESK</p>
+    <h1>素材計算</h1>
+    <p class="sub">生産ラボと研究に必要な素材を、手持ちから逆算する。</p>
+  </div>
+  <div class="tabbar" role="group" aria-label="計算対象">
+    <button type="button" class="tab is-active" data-tab="lab" aria-pressed="true">生産ラボ</button>
+    <button type="button" class="tab" data-tab="research" aria-pressed="false">研究</button>
+  </div>
+</header>
+
+<main id="main">
+  <section class="panel controls" aria-labelledby="controls-title">
+    <h2 id="controls-title" class="sr-only">計算条件</h2>
+    <div class="control-row">
+      <label for="stage-select" id="stage-label">挑戦中のレベル（このレベルを含む）</label>
+      <div class="select-wrap">
+        <select id="stage-select"></select>
+      </div>
+      <p class="readout" id="range-readout"></p>
+    </div>
+
+    <div class="summary">
+      <div class="stat">
+        <span class="stat-label">残りの不足</span>
+        <strong class="stat-value" id="stat-short">—</strong>
+        <span class="stat-unit">品目</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">残り範囲の金</span>
+        <strong class="stat-value" id="stat-gold-scope">—</strong>
+      </div>
+      <div class="stat">
+        <span class="stat-label">全期間の金</span>
+        <strong class="stat-value" id="stat-gold-all">—</strong>
+      </div>
+    </div>
+
+    <p class="storage-note" id="storage-note" role="status" hidden></p>
+  </section>
+
+  <details class="card owned-panel" id="owned-panel">
+    <summary>
+      <span>所持素材を入力</span>
+      <span class="summary-meta" id="owned-count"></span>
+    </summary>
+    <div class="owned-body" id="owned-body"></div>
+  </details>
+
+  <section class="card" aria-labelledby="main-title">
+    <div class="card-head">
+      <h2 id="main-title">必要素材</h2>
+      <p class="card-note">選んだ範囲で必要になる中間素材（SR / R / N）。</p>
+    </div>
+    <div class="table-wrap">
+      <table class="data-table">
+        <caption class="sr-only">必要素材と残りの不足</caption>
+        <thead>
+          <tr>
+            <th scope="col">素材</th>
+            <th scope="col">この段階</th>
+            <th scope="col">残り必要</th>
+            <th scope="col">全期間</th>
+            <th scope="col">所持</th>
+            <th scope="col">残りの不足</th>
+          </tr>
+        </thead>
+        <tbody id="main-body"></tbody>
+      </table>
+    </div>
+    <p class="footnote">階層をまたいだ合計は二重計上になります。実際に集める数は下の「基礎素材への展開」を見てください。「残りの不足」は上位素材の所持も反映します。</p>
+  </section>
+
+  <details class="card">
+    <summary>
+      <span>段階ごとの内訳</span>
+      <span class="summary-meta" id="stage-meta"></span>
+    </summary>
+    <div class="table-wrap">
+      <table class="data-table stage-table">
+        <caption class="sr-only">段階ごとの必要素材と金</caption>
+        <thead>
+          <tr>
+            <th scope="col">段階</th>
+            <th scope="col">必要素材</th>
+            <th scope="col">金</th>
+          </tr>
+        </thead>
+        <tbody id="stage-body"></tbody>
+      </table>
+    </div>
+  </details>
+
+  <details class="card" open>
+    <summary>
+      <span>基礎素材への展開</span>
+      <span class="summary-meta" id="base-meta"></span>
+    </summary>
+    <div class="table-wrap">
+      <table class="data-table">
+        <caption class="sr-only">基礎素材の必要数と不足</caption>
+        <thead>
+          <tr>
+            <th scope="col">基礎素材</th>
+            <th scope="col">残り必要</th>
+            <th scope="col">全期間</th>
+            <th scope="col">所持</th>
+            <th scope="col">残りの不足</th>
+          </tr>
+        </thead>
+        <tbody id="base-body"></tbody>
+      </table>
+    </div>
+    <p class="footnote">レシピを基礎素材まで展開した数です。所持している中間素材は、その分の下位素材を減らします。</p>
+  </details>
+
+  <p id="live-status" class="sr-only" role="status" aria-live="polite"></p>
+</main>
+
+<footer class="app-footer">
+  <p>データは <code>docs/素材テーブル.json</code> と各必要素材JSONから生成。<code>uv run --no-project python tools/build_site.py</code> で再生成。</p>
+</footer>
+
+<noscript><p class="noscript">この画面の計算には JavaScript が必要です。</p></noscript>
+
+<!--__APP_DATA__-->
+<!--__APP_JS__-->
+</body>
+</html>

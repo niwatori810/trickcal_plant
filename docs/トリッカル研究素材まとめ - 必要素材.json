@@ -39,49 +39,49 @@
           "gold": 3000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "妖精",
+          "name": "妖精物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "竜族",
+          "name": "竜族物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "魔女",
+          "name": "魔女物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "獣人",
+          "name": "獣人物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 3,
@@ -95,49 +95,49 @@
           "gold": 3000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "妖精",
+          "name": "妖精魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "竜族",
+          "name": "竜族魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "魔女",
+          "name": "魔女魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "獣人",
+          "name": "獣人魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 3,
@@ -151,49 +151,49 @@
           "gold": 3000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "妖精",
+          "name": "妖精物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "竜族",
+          "name": "竜族物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "魔女",
+          "name": "魔女物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "獣人",
+          "name": "獣人物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 3,
@@ -207,49 +207,49 @@
           "gold": 3000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "妖精",
+          "name": "妖精魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "竜族",
+          "name": "竜族魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "魔女",
+          "name": "魔女魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "獣人",
+          "name": "獣人魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 3,
@@ -263,49 +263,49 @@
           "gold": 3000
         },
         {
-          "name": "エルフ",
+          "name": "エルフHP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "妖精",
+          "name": "妖精HP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "竜族",
+          "name": "竜族HP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "魔女",
+          "name": "魔女HP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊HP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "獣人",
+          "name": "獣人HP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティックHP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 3,
@@ -359,49 +359,49 @@
           "gold": 6000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "妖精",
+          "name": "妖精物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "竜族",
+          "name": "竜族物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "魔女",
+          "name": "魔女物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "獣人",
+          "name": "獣人物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 4,
@@ -415,49 +415,49 @@
           "gold": 6000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "妖精",
+          "name": "妖精魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "竜族",
+          "name": "竜族魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "魔女",
+          "name": "魔女魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "獣人",
+          "name": "獣人魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 4,
@@ -471,49 +471,49 @@
           "gold": 6000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "妖精",
+          "name": "妖精物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "竜族",
+          "name": "竜族物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "魔女",
+          "name": "魔女物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "獣人",
+          "name": "獣人物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 4,
@@ -527,49 +527,49 @@
           "gold": 6000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "妖精",
+          "name": "妖精魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "竜族",
+          "name": "竜族魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "魔女",
+          "name": "魔女魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "獣人",
+          "name": "獣人魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 4,
@@ -583,49 +583,49 @@
           "gold": 6000
         },
         {
-          "name": "エルフ",
+          "name": "エルフHP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "妖精",
+          "name": "妖精HP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "竜族",
+          "name": "竜族HP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "魔女",
+          "name": "魔女HP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊HP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "獣人",
+          "name": "獣人HP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティックHP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 4,
@@ -679,49 +679,49 @@
           "gold": 9000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "妖精",
+          "name": "妖精物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "竜族",
+          "name": "竜族物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "魔女",
+          "name": "魔女物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "獣人",
+          "name": "獣人物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 5,
@@ -735,49 +735,49 @@
           "gold": 9000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "妖精",
+          "name": "妖精魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "竜族",
+          "name": "竜族魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "魔女",
+          "name": "魔女魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "獣人",
+          "name": "獣人魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 5,
@@ -791,49 +791,49 @@
           "gold": 9000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "妖精",
+          "name": "妖精物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "竜族",
+          "name": "竜族物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "魔女",
+          "name": "魔女物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "獣人",
+          "name": "獣人物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 5,
@@ -847,49 +847,49 @@
           "gold": 9000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "妖精",
+          "name": "妖精魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "竜族",
+          "name": "竜族魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "魔女",
+          "name": "魔女魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "獣人",
+          "name": "獣人魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 5,
@@ -903,49 +903,49 @@
           "gold": 9000
         },
         {
-          "name": "エルフ",
+          "name": "エルフHP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "妖精",
+          "name": "妖精HP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "竜族",
+          "name": "竜族HP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "魔女",
+          "name": "魔女HP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊HP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "獣人",
+          "name": "獣人HP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティックHP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 5,
@@ -999,49 +999,49 @@
           "gold": 12000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "妖精",
+          "name": "妖精物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "竜族",
+          "name": "竜族物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "魔女",
+          "name": "魔女物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "獣人",
+          "name": "獣人物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック物理攻撃",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 6,
@@ -1055,49 +1055,49 @@
           "gold": 12000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "妖精",
+          "name": "妖精魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "竜族",
+          "name": "竜族魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "魔女",
+          "name": "魔女魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "獣人",
+          "name": "獣人魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック魔法攻撃",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 6,
@@ -1111,49 +1111,49 @@
           "gold": 12000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "妖精",
+          "name": "妖精物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "竜族",
+          "name": "竜族物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "魔女",
+          "name": "魔女物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "獣人",
+          "name": "獣人物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック物理防御",
           "materialId": "R1",
           "materialName": "MUSIMチップ",
           "count": 6,
@@ -1167,49 +1167,49 @@
           "gold": 12000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "妖精",
+          "name": "妖精魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "竜族",
+          "name": "竜族魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "魔女",
+          "name": "魔女魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "獣人",
+          "name": "獣人魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック魔法防御",
           "materialId": "R3",
           "materialName": "バッテリーパック",
           "count": 6,
@@ -1223,49 +1223,49 @@
           "gold": 12000
         },
         {
-          "name": "エルフ",
+          "name": "エルフHP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "妖精",
+          "name": "妖精HP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "竜族",
+          "name": "竜族HP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "魔女",
+          "name": "魔女HP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊HP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "獣人",
+          "name": "獣人HP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティックHP",
           "materialId": "R0",
           "materialName": "S電子半導体",
           "count": 6,
@@ -1319,49 +1319,49 @@
           "gold": 3000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "妖精",
+          "name": "妖精物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "竜族",
+          "name": "竜族物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "魔女",
+          "name": "魔女物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "獣人",
+          "name": "獣人物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 3,
@@ -1375,49 +1375,49 @@
           "gold": 3000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "妖精",
+          "name": "妖精魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "竜族",
+          "name": "竜族魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "魔女",
+          "name": "魔女魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "獣人",
+          "name": "獣人魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 3,
@@ -1431,49 +1431,49 @@
           "gold": 3000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "妖精",
+          "name": "妖精物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "竜族",
+          "name": "竜族物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "魔女",
+          "name": "魔女物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "獣人",
+          "name": "獣人物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 3,
@@ -1487,49 +1487,49 @@
           "gold": 3000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "妖精",
+          "name": "妖精魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "竜族",
+          "name": "竜族魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "魔女",
+          "name": "魔女魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "獣人",
+          "name": "獣人魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 3,
@@ -1543,49 +1543,49 @@
           "gold": 3000
         },
         {
-          "name": "エルフ",
+          "name": "エルフHP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "妖精",
+          "name": "妖精HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "竜族",
+          "name": "竜族HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "魔女",
+          "name": "魔女HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "獣人",
+          "name": "獣人HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 3,
           "gold": 3000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティックHP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 3,
@@ -1639,49 +1639,49 @@
           "gold": 6000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "妖精",
+          "name": "妖精物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "竜族",
+          "name": "竜族物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "魔女",
+          "name": "魔女物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "獣人",
+          "name": "獣人物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 4,
@@ -1695,49 +1695,49 @@
           "gold": 6000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "妖精",
+          "name": "妖精魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "竜族",
+          "name": "竜族魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "魔女",
+          "name": "魔女魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "獣人",
+          "name": "獣人魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 4,
@@ -1751,49 +1751,49 @@
           "gold": 6000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "妖精",
+          "name": "妖精物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "竜族",
+          "name": "竜族物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "魔女",
+          "name": "魔女物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "獣人",
+          "name": "獣人物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 4,
@@ -1807,49 +1807,49 @@
           "gold": 6000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "妖精",
+          "name": "妖精魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "竜族",
+          "name": "竜族魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "魔女",
+          "name": "魔女魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "獣人",
+          "name": "獣人魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 4,
@@ -1863,49 +1863,49 @@
           "gold": 6000
         },
         {
-          "name": "エルフ",
+          "name": "エルフHP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "妖精",
+          "name": "妖精HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "竜族",
+          "name": "竜族HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "魔女",
+          "name": "魔女HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "獣人",
+          "name": "獣人HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 4,
           "gold": 6000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティックHP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 4,
@@ -1959,49 +1959,49 @@
           "gold": 9000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "妖精",
+          "name": "妖精物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "竜族",
+          "name": "竜族物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "魔女",
+          "name": "魔女物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "獣人",
+          "name": "獣人物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 5,
@@ -2015,49 +2015,49 @@
           "gold": 9000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "妖精",
+          "name": "妖精魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "竜族",
+          "name": "竜族魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "魔女",
+          "name": "魔女魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "獣人",
+          "name": "獣人魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 5,
@@ -2071,49 +2071,49 @@
           "gold": 9000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "妖精",
+          "name": "妖精物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "竜族",
+          "name": "竜族物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "魔女",
+          "name": "魔女物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "獣人",
+          "name": "獣人物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 5,
@@ -2127,49 +2127,49 @@
           "gold": 9000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "妖精",
+          "name": "妖精魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "竜族",
+          "name": "竜族魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "魔女",
+          "name": "魔女魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "獣人",
+          "name": "獣人魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 5,
@@ -2183,49 +2183,49 @@
           "gold": 9000
         },
         {
-          "name": "エルフ",
+          "name": "エルフHP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "妖精",
+          "name": "妖精HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "竜族",
+          "name": "竜族HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "魔女",
+          "name": "魔女HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "獣人",
+          "name": "獣人HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 5,
           "gold": 9000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティックHP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 5,
@@ -2279,49 +2279,49 @@
           "gold": 12000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "妖精",
+          "name": "妖精物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "竜族",
+          "name": "竜族物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "魔女",
+          "name": "魔女物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "獣人",
+          "name": "獣人物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 6,
@@ -2335,49 +2335,49 @@
           "gold": 12000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "妖精",
+          "name": "妖精魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "竜族",
+          "name": "竜族魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "魔女",
+          "name": "魔女魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "獣人",
+          "name": "獣人魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 6,
@@ -2391,49 +2391,49 @@
           "gold": 12000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "妖精",
+          "name": "妖精物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "竜族",
+          "name": "竜族物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "魔女",
+          "name": "魔女物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "獣人",
+          "name": "獣人物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 6,
@@ -2447,49 +2447,49 @@
           "gold": 12000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "妖精",
+          "name": "妖精魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "竜族",
+          "name": "竜族魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "魔女",
+          "name": "魔女魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "獣人",
+          "name": "獣人魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 6,
@@ -2503,49 +2503,49 @@
           "gold": 12000
         },
         {
-          "name": "エルフ",
+          "name": "エルフHP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "妖精",
+          "name": "妖精HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "竜族",
+          "name": "竜族HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "魔女",
+          "name": "魔女HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "獣人",
+          "name": "獣人HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 6,
           "gold": 12000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティックHP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 6,
@@ -2599,49 +2599,49 @@
           "gold": 15000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "妖精",
+          "name": "妖精物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "竜族",
+          "name": "竜族物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "魔女",
+          "name": "魔女物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "獣人",
+          "name": "獣人物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 7,
@@ -2655,49 +2655,49 @@
           "gold": 15000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "妖精",
+          "name": "妖精魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "竜族",
+          "name": "竜族魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "魔女",
+          "name": "魔女魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "獣人",
+          "name": "獣人魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 7,
@@ -2711,49 +2711,49 @@
           "gold": 15000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "妖精",
+          "name": "妖精物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "竜族",
+          "name": "竜族物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "魔女",
+          "name": "魔女物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "獣人",
+          "name": "獣人物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 7,
@@ -2767,49 +2767,49 @@
           "gold": 15000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "妖精",
+          "name": "妖精魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "竜族",
+          "name": "竜族魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "魔女",
+          "name": "魔女魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "獣人",
+          "name": "獣人魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 7,
@@ -2823,49 +2823,49 @@
           "gold": 15000
         },
         {
-          "name": "エルフ",
+          "name": "エルフHP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "妖精",
+          "name": "妖精HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "竜族",
+          "name": "竜族HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "魔女",
+          "name": "魔女HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "獣人",
+          "name": "獣人HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 7,
           "gold": 15000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティックHP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 7,
@@ -2919,49 +2919,49 @@
           "gold": 18000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "妖精",
+          "name": "妖精物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "竜族",
+          "name": "竜族物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "魔女",
+          "name": "魔女物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "獣人",
+          "name": "獣人物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック物理攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 8,
@@ -2975,49 +2975,49 @@
           "gold": 18000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "妖精",
+          "name": "妖精魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "竜族",
+          "name": "竜族魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "魔女",
+          "name": "魔女魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "獣人",
+          "name": "獣人魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック魔法攻撃",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 8,
@@ -3031,49 +3031,49 @@
           "gold": 18000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "妖精",
+          "name": "妖精物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "竜族",
+          "name": "竜族物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "魔女",
+          "name": "魔女物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "獣人",
+          "name": "獣人物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック物理防御",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 8,
@@ -3087,49 +3087,49 @@
           "gold": 18000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "妖精",
+          "name": "妖精魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "竜族",
+          "name": "竜族魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "魔女",
+          "name": "魔女魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "獣人",
+          "name": "獣人魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 8,
@@ -3143,49 +3143,49 @@
           "gold": 18000
         },
         {
-          "name": "エルフ",
+          "name": "エルフHP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "妖精",
+          "name": "妖精HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "竜族",
+          "name": "竜族HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "魔女",
+          "name": "魔女HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "獣人",
+          "name": "獣人HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 8,
           "gold": 18000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティックHP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 8,
@@ -3253,49 +3253,49 @@
           "gold": 30000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ物理攻撃",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "妖精",
+          "name": "妖精物理攻撃",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "竜族",
+          "name": "竜族物理攻撃",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "魔女",
+          "name": "魔女物理攻撃",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊物理攻撃",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "獣人",
+          "name": "獣人物理攻撃",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック物理攻撃",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 12,
@@ -3309,49 +3309,49 @@
           "gold": 30000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ魔法攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "妖精",
+          "name": "妖精魔法攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "竜族",
+          "name": "竜族魔法攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "魔女",
+          "name": "魔女魔法攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊魔法攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "獣人",
+          "name": "獣人魔法攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック魔法攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 12,
@@ -3365,49 +3365,49 @@
           "gold": 30000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ物理防御",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "妖精",
+          "name": "妖精物理防御",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "竜族",
+          "name": "竜族物理防御",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "魔女",
+          "name": "魔女物理防御",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊物理防御",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "獣人",
+          "name": "獣人物理防御",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック物理防御",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 12,
@@ -3421,49 +3421,49 @@
           "gold": 30000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "妖精",
+          "name": "妖精魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "竜族",
+          "name": "竜族魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "魔女",
+          "name": "魔女魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "獣人",
+          "name": "獣人魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 12,
@@ -3477,49 +3477,49 @@
           "gold": 30000
         },
         {
-          "name": "エルフ",
+          "name": "エルフHP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "妖精",
+          "name": "妖精HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "竜族",
+          "name": "竜族HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "魔女",
+          "name": "魔女HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "獣人",
+          "name": "獣人HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 12,
           "gold": 30000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティックHP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 12,
@@ -3587,49 +3587,49 @@
           "gold": 35000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ物理攻撃",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "妖精",
+          "name": "妖精物理攻撃",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "竜族",
+          "name": "竜族物理攻撃",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "魔女",
+          "name": "魔女物理攻撃",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊物理攻撃",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "獣人",
+          "name": "獣人物理攻撃",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック物理攻撃",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 15,
@@ -3643,49 +3643,49 @@
           "gold": 35000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ魔法攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "妖精",
+          "name": "妖精魔法攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "竜族",
+          "name": "竜族魔法攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "魔女",
+          "name": "魔女魔法攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊魔法攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "獣人",
+          "name": "獣人魔法攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック魔法攻撃",
           "materialId": "SR0",
           "materialName": "感性コア",
           "count": 15,
@@ -3699,49 +3699,49 @@
           "gold": 35000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ物理防御",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "妖精",
+          "name": "妖精物理防御",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "竜族",
+          "name": "竜族物理防御",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "魔女",
+          "name": "魔女物理防御",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊物理防御",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "獣人",
+          "name": "獣人物理防御",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック物理防御",
           "materialId": "SR3",
           "materialName": "キャラのハンコ",
           "count": 15,
@@ -3755,49 +3755,49 @@
           "gold": 35000
         },
         {
-          "name": "エルフ",
+          "name": "エルフ魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "妖精",
+          "name": "妖精魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "竜族",
+          "name": "竜族魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "魔女",
+          "name": "魔女魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "獣人",
+          "name": "獣人魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティック魔法防御",
           "materialId": "SR2",
           "materialName": "金の匙",
           "count": 15,
@@ -3811,49 +3811,49 @@
           "gold": 35000
         },
         {
-          "name": "エルフ",
+          "name": "エルフHP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "妖精",
+          "name": "妖精HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "竜族",
+          "name": "竜族HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "魔女",
+          "name": "魔女HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "幽霊",
+          "name": "幽霊HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "獣人",
+          "name": "獣人HP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 15,
           "gold": 35000
         },
         {
-          "name": "ミスティック",
+          "name": "ミスティックHP",
           "materialId": "SR1",
           "materialName": "徹夜アイマスク",
           "count": 15,
