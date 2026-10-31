@@ -1,0 +1,166 @@
+{
+  "levels": [
+    {
+      "level": 2,
+      "reward": "建物拡張*6、世界樹聖画の最大レベル増加 3→6、フォロー数 1→2、冒険協会の最大レベル増加 2→3",
+      "requiredLeaderLevel": "5*7",
+      "materials": [
+        {
+          "materialId": "C9",
+          "materialName": "固い石",
+          "count": 10
+        },
+        {
+          "materialId": "C16",
+          "materialName": "加工しやすい木",
+          "count": 20
+        }
+      ],
+      "gold": 15000
+    },
+    {
+      "level": 3,
+      "reward": "世界樹聖画の最大レベル増加 6→9、初期部屋の招待可能の使徒人数が増加 1→2",
+      "requiredLeaderLevel": "10",
+      "materials": [
+        {
+          "materialId": "C9",
+          "materialName": "固い石",
+          "count": 20
+        },
+        {
+          "materialId": "C16",
+          "materialName": "加工しやすい木",
+          "count": 30
+        }
+      ],
+      "gold": 30000
+    },
+    {
+      "level": 4,
+      "reward": "建物拡張、世界樹聖画の最大レベル増加 9→12、初期部屋に家具を追加、生産ラボの最大レベル増加 2→3",
+      "requiredLeaderLevel": "20",
+      "materials": [
+        {
+          "materialId": "C9",
+          "materialName": "固い石",
+          "count": 30
+        },
+        {
+          "materialId": "C16",
+          "materialName": "加工しやすい木",
+          "count": 40
+        }
+      ],
+      "gold": 70000
+    },
+    {
+      "level": 5,
+      "reward": "世界樹聖画の最大レベル増加 12→15、フォロー数 2→3、生産ラボの最大レベル増加 3→4",
+      "requiredLeaderLevel": "30",
+      "materials": [
+        {
+          "materialId": "N10",
+          "materialName": "つんつんゼンマイ",
+          "count": 10
+        },
+        {
+          "materialId": "C16",
+          "materialName": "加工しやすい木",
+          "count": 50
+        }
+      ],
+      "gold": 150000
+    },
+    {
+      "level": 6,
+      "reward": "世界樹聖画の最大レベル増加 15→18、初期部屋の招待可能な使徒人数が増加 2→3、生産ラボの最大レベル増加 4→5、宴会場の最大レベル増加 2→3",
+      "requiredLeaderLevel": "40",
+      "materials": [
+        {
+          "materialId": "N10",
+          "materialName": "つんつんゼンマイ",
+          "count": 20
+        },
+        {
+          "materialId": "C16",
+          "materialName": "加工しやすい木",
+          "count": 60
+        }
+      ],
+      "gold": 700000
+    },
+    {
+      "level": 7,
+      "reward": "世界樹聖画の最大レベル増加 18→21、生産ラボの最大レベル増加 5→6",
+      "requiredLeaderLevel": "50",
+      "materials": [
+        {
+          "materialId": "N10",
+          "materialName": "つんつんゼンマイ",
+          "count": 30
+        },
+        {
+          "materialId": "C16",
+          "materialName": "加工しやすい木",
+          "count": 70
+        }
+      ],
+      "gold": 1500000
+    },
+    {
+      "level": 8,
+      "reward": "世界樹聖画の最大レベル増加 21→24、生産ラボの最大レベル増加 6→7、宴会場の最大レベル増加 3→4",
+      "requiredLeaderLevel": "60",
+      "materials": [
+        {
+          "materialId": "R7",
+          "materialName": "尖った釘",
+          "count": 10
+        },
+        {
+          "materialId": "C16",
+          "materialName": "加工しやすい木",
+          "count": 80
+        }
+      ],
+      "gold": 2000000
+    },
+    {
+      "level": 9,
+      "reward": "世界樹聖画の最大レベル増加 24→30、生産ラボの最大レベル増加 7→9",
+      "requiredLeaderLevel": "70",
+      "materials": [
+        {
+          "materialId": "R7",
+          "materialName": "尖った釘",
+          "count": 20
+        },
+        {
+          "materialId": "C16",
+          "materialName": "加工しやすい木",
+          "count": 90
+        }
+      ],
+      "gold": 3000000
+    },
+    {
+      "level": 10,
+      "reward": "生産ラボの最大レベル増加 9→12*8",
+      "requiredLeaderLevel": "?",
+      "materials": [
+        {
+          "materialId": "R7",
+          "materialName": "尖った釘",
+          "count": 30
+        },
+        {
+          "materialId": "C16",
+          "materialName": "加工しやすい木",
+          "count": 100
+        }
+      ],
+      "gold": 7000000
+    }
+  ]
+}

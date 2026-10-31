@@ -1,0 +1,3872 @@
+{
+  "stages": [
+    {
+      "stage": 1,
+      "researches": [
+        {
+          "name": "供物量増加",
+          "materialId": "N0",
+          "materialName": "地球から来た鉛",
+          "count": 3,
+          "gold": 50000
+        },
+        {
+          "name": "供物最大累積時間",
+          "materialId": "N6",
+          "materialName": "バラバラの基板",
+          "count": 3,
+          "gold": 20000
+        },
+        {
+          "name": "生産時間減少",
+          "materialId": "N1",
+          "materialName": "柔らか金属",
+          "count": 3,
+          "gold": 10000
+        },
+        {
+          "name": "生産スロット増加",
+          "materialId": "N10",
+          "materialName": "つんつんゼンマイ",
+          "count": 3,
+          "gold": 20000
+        },
+        {
+          "name": "精霊物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "エルフ物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "妖精物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "竜族物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "魔女物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "幽霊物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "獣人物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "ミスティック物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "精霊魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "エルフ魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "妖精魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "竜族魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "魔女魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "幽霊魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "獣人魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "ミスティック魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "精霊物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "エルフ物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "妖精物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "竜族物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "魔女物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "幽霊物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "獣人物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "ミスティック物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "精霊魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "エルフ魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "妖精魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "竜族魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "魔女魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "幽霊魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "獣人魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "ミスティック魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "精霊HP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "エルフHP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "妖精HP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "竜族HP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "魔女HP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "幽霊HP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "獣人HP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "ミスティックHP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "進軍開始時コイン",
+          "materialId": "N3",
+          "materialName": "曲がった針金",
+          "count": 3,
+          "gold": 10000
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "researches": [
+        {
+          "name": "供物量増加",
+          "materialId": "N0",
+          "materialName": "地球から来た鉛",
+          "count": 4,
+          "gold": 100000
+        },
+        {
+          "name": "供物最大累積時間",
+          "materialId": "N6",
+          "materialName": "バラバラの基板",
+          "count": 4,
+          "gold": 40000
+        },
+        {
+          "name": "生産時間減少",
+          "materialId": "N1",
+          "materialName": "柔らか金属",
+          "count": 4,
+          "gold": 20000
+        },
+        {
+          "name": "フォロー指定数増加",
+          "materialId": "R6",
+          "materialName": "LED電球",
+          "count": 3,
+          "gold": 100000
+        },
+        {
+          "name": "精霊物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "エルフ物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "妖精物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "竜族物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "魔女物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "幽霊物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "獣人物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "ミスティック物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "精霊魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "エルフ魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "妖精魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "竜族魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "魔女魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "幽霊魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "獣人魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "ミスティック魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "精霊物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "エルフ物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "妖精物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "竜族物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "魔女物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "幽霊物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "獣人物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "ミスティック物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "精霊魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "エルフ魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "妖精魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "竜族魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "魔女魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "幽霊魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "獣人魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "ミスティック魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "精霊HP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "エルフHP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "妖精HP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "竜族HP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "魔女HP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "幽霊HP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "獣人HP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "ミスティックHP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "進軍開始時コイン",
+          "materialId": "N3",
+          "materialName": "曲がった針金",
+          "count": 4,
+          "gold": 20000
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "researches": [
+        {
+          "name": "供物量増加",
+          "materialId": "N0",
+          "materialName": "地球から来た鉛",
+          "count": 5,
+          "gold": 150000
+        },
+        {
+          "name": "供物最大累積時間",
+          "materialId": "N6",
+          "materialName": "バラバラの基板",
+          "count": 5,
+          "gold": 60000
+        },
+        {
+          "name": "生産時間減少",
+          "materialId": "N1",
+          "materialName": "柔らか金属",
+          "count": 5,
+          "gold": 30000
+        },
+        {
+          "name": "宴会場キッチンコンロ増加",
+          "materialId": "R6",
+          "materialName": "LED電球",
+          "count": 4,
+          "gold": 60000
+        },
+        {
+          "name": "精霊物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "エルフ物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "妖精物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "竜族物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "魔女物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "幽霊物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "獣人物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "ミスティック物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "精霊魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "エルフ魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "妖精魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "竜族魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "魔女魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "幽霊魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "獣人魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "ミスティック魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "精霊物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "エルフ物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "妖精物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "竜族物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "魔女物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "幽霊物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "獣人物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "ミスティック物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "精霊魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "エルフ魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "妖精魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "竜族魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "魔女魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "幽霊魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "獣人魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "ミスティック魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "精霊HP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "エルフHP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "妖精HP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "竜族HP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "魔女HP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "幽霊HP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "獣人HP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "ミスティックHP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "進軍開始時コイン",
+          "materialId": "N3",
+          "materialName": "曲がった針金",
+          "count": 5,
+          "gold": 30000
+        }
+      ]
+    },
+    {
+      "stage": 4,
+      "researches": [
+        {
+          "name": "供物量増加",
+          "materialId": "N0",
+          "materialName": "地球から来た鉛",
+          "count": 6,
+          "gold": 200000
+        },
+        {
+          "name": "供物最大累積時間",
+          "materialId": "N6",
+          "materialName": "バラバラの基板",
+          "count": 6,
+          "gold": 80000
+        },
+        {
+          "name": "生産時間減少",
+          "materialId": "N1",
+          "materialName": "柔らか金属",
+          "count": 6,
+          "gold": 40000
+        },
+        {
+          "name": "フォロー指定数増加",
+          "materialId": "R6",
+          "materialName": "LED電球",
+          "count": 4,
+          "gold": 200000
+        },
+        {
+          "name": "精霊物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "エルフ物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "妖精物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "竜族物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "魔女物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "幽霊物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "獣人物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "ミスティック物理攻撃",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "精霊魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "エルフ魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "妖精魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "竜族魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "魔女魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "幽霊魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "獣人魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "ミスティック魔法攻撃",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "精霊物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "エルフ物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "妖精物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "竜族物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "魔女物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "幽霊物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "獣人物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "ミスティック物理防御",
+          "materialId": "R1",
+          "materialName": "MUSIMチップ",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "精霊魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "エルフ魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "妖精魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "竜族魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "魔女魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "幽霊魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "獣人魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "ミスティック魔法防御",
+          "materialId": "R3",
+          "materialName": "バッテリーパック",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "精霊HP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "エルフHP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "妖精HP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "竜族HP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "魔女HP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "幽霊HP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "獣人HP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "ミスティックHP",
+          "materialId": "R0",
+          "materialName": "S電子半導体",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "進軍開始時コイン",
+          "materialId": "N3",
+          "materialName": "曲がった針金",
+          "count": 6,
+          "gold": 40000
+        }
+      ]
+    },
+    {
+      "stage": 5,
+      "researches": [
+        {
+          "name": "供物量増加",
+          "materialId": "N0",
+          "materialName": "地球から来た鉛",
+          "count": 7,
+          "gold": 250000
+        },
+        {
+          "name": "供物最大累積時間",
+          "materialId": "N6",
+          "materialName": "バラバラの基板",
+          "count": 7,
+          "gold": 100000
+        },
+        {
+          "name": "生産時間減少",
+          "materialId": "N1",
+          "materialName": "柔らか金属",
+          "count": 7,
+          "gold": 50000
+        },
+        {
+          "name": "生産スロット増加",
+          "materialId": "N10",
+          "materialName": "つんつんゼンマイ",
+          "count": 5,
+          "gold": 100000
+        },
+        {
+          "name": "精霊物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "エルフ物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "妖精物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "竜族物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "魔女物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "幽霊物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "獣人物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "ミスティック物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "精霊魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "エルフ魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "妖精魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "竜族魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "魔女魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "幽霊魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "獣人魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "ミスティック魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "精霊物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "エルフ物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "妖精物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "竜族物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "魔女物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "幽霊物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "獣人物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "ミスティック物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "精霊魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "エルフ魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "妖精魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "竜族魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "魔女魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "幽霊魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "獣人魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "ミスティック魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "精霊HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "エルフHP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "妖精HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "竜族HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "魔女HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "幽霊HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "獣人HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "ミスティックHP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 3,
+          "gold": 3000
+        },
+        {
+          "name": "進軍開始時コイン",
+          "materialId": "N3",
+          "materialName": "曲がった針金",
+          "count": 3,
+          "gold": 50000
+        }
+      ]
+    },
+    {
+      "stage": 6,
+      "researches": [
+        {
+          "name": "供物量増加",
+          "materialId": "N0",
+          "materialName": "地球から来た鉛",
+          "count": 8,
+          "gold": 300000
+        },
+        {
+          "name": "供物最大累積時間",
+          "materialId": "N6",
+          "materialName": "バラバラの基板",
+          "count": 8,
+          "gold": 120000
+        },
+        {
+          "name": "生産時間減少",
+          "materialId": "N1",
+          "materialName": "柔らか金属",
+          "count": 8,
+          "gold": 60000
+        },
+        {
+          "name": "フォロー指定数増加",
+          "materialId": "R6",
+          "materialName": "LED電球",
+          "count": 5,
+          "gold": 300000
+        },
+        {
+          "name": "精霊物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "エルフ物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "妖精物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "竜族物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "魔女物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "幽霊物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "獣人物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "ミスティック物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "精霊魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "エルフ魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "妖精魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "竜族魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "魔女魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "幽霊魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "獣人魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "ミスティック魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "精霊物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "エルフ物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "妖精物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "竜族物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "魔女物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "幽霊物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "獣人物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "ミスティック物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "精霊魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "エルフ魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "妖精魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "竜族魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "魔女魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "幽霊魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "獣人魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "ミスティック魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "精霊HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "エルフHP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "妖精HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "竜族HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "魔女HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "幽霊HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "獣人HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "ミスティックHP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 4,
+          "gold": 6000
+        },
+        {
+          "name": "進軍開始時コイン",
+          "materialId": "N3",
+          "materialName": "曲がった針金",
+          "count": 4,
+          "gold": 60000
+        }
+      ]
+    },
+    {
+      "stage": 7,
+      "researches": [
+        {
+          "name": "供物量増加",
+          "materialId": "N0",
+          "materialName": "地球から来た鉛",
+          "count": 9,
+          "gold": 350000
+        },
+        {
+          "name": "供物最大累積時間",
+          "materialId": "N6",
+          "materialName": "バラバラの基板",
+          "count": 9,
+          "gold": 140000
+        },
+        {
+          "name": "生産時間減少",
+          "materialId": "N1",
+          "materialName": "柔らか金属",
+          "count": 9,
+          "gold": 70000
+        },
+        {
+          "name": "宴会場キッチンコンロ増加",
+          "materialId": "R6",
+          "materialName": "LED電球",
+          "count": 6,
+          "gold": 140000
+        },
+        {
+          "name": "精霊物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "エルフ物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "妖精物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "竜族物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "魔女物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "幽霊物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "獣人物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "ミスティック物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "精霊魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "エルフ魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "妖精魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "竜族魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "魔女魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "幽霊魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "獣人魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "ミスティック魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "精霊物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "エルフ物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "妖精物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "竜族物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "魔女物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "幽霊物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "獣人物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "ミスティック物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "精霊魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "エルフ魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "妖精魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "竜族魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "魔女魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "幽霊魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "獣人魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "ミスティック魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "精霊HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "エルフHP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "妖精HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "竜族HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "魔女HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "幽霊HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "獣人HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "ミスティックHP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 5,
+          "gold": 9000
+        },
+        {
+          "name": "進軍開始時コイン",
+          "materialId": "N3",
+          "materialName": "曲がった針金",
+          "count": 5,
+          "gold": 70000
+        }
+      ]
+    },
+    {
+      "stage": 8,
+      "researches": [
+        {
+          "name": "供物量増加",
+          "materialId": "N0",
+          "materialName": "地球から来た鉛",
+          "count": 10,
+          "gold": 400000
+        },
+        {
+          "name": "供物最大累積時間",
+          "materialId": "N6",
+          "materialName": "バラバラの基板",
+          "count": 10,
+          "gold": 160000
+        },
+        {
+          "name": "生産時間減少",
+          "materialId": "N1",
+          "materialName": "柔らか金属",
+          "count": 10,
+          "gold": 80000
+        },
+        {
+          "name": "フォロー指定数増加",
+          "materialId": "R6",
+          "materialName": "LED電球",
+          "count": 6,
+          "gold": 400000
+        },
+        {
+          "name": "精霊物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "エルフ物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "妖精物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "竜族物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "魔女物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "幽霊物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "獣人物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "ミスティック物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "精霊魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "エルフ魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "妖精魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "竜族魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "魔女魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "幽霊魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "獣人魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "ミスティック魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "精霊物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "エルフ物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "妖精物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "竜族物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "魔女物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "幽霊物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "獣人物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "ミスティック物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "精霊魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "エルフ魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "妖精魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "竜族魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "魔女魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "幽霊魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "獣人魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "ミスティック魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "精霊HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "エルフHP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "妖精HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "竜族HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "魔女HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "幽霊HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "獣人HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "ミスティックHP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 6,
+          "gold": 12000
+        },
+        {
+          "name": "進軍開始時コイン",
+          "materialId": "N3",
+          "materialName": "曲がった針金",
+          "count": 6,
+          "gold": 80000
+        }
+      ]
+    },
+    {
+      "stage": 9,
+      "researches": [
+        {
+          "name": "供物量増加",
+          "materialId": "N0",
+          "materialName": "地球から来た鉛",
+          "count": 11,
+          "gold": 450000
+        },
+        {
+          "name": "供物最大累積時間",
+          "materialId": "N6",
+          "materialName": "バラバラの基板",
+          "count": 11,
+          "gold": 180000
+        },
+        {
+          "name": "生産時間減少",
+          "materialId": "N1",
+          "materialName": "柔らか金属",
+          "count": 11,
+          "gold": 90000
+        },
+        {
+          "name": "生産スロット増加",
+          "materialId": "N10",
+          "materialName": "つんつんゼンマイ",
+          "count": 7,
+          "gold": 180000
+        },
+        {
+          "name": "精霊物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "エルフ物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "妖精物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "竜族物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "魔女物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "幽霊物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "獣人物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "ミスティック物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "精霊魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "エルフ魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "妖精魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "竜族魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "魔女魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "幽霊魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "獣人魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "ミスティック魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "精霊物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "エルフ物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "妖精物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "竜族物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "魔女物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "幽霊物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "獣人物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "ミスティック物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "精霊魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "エルフ魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "妖精魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "竜族魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "魔女魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "幽霊魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "獣人魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "ミスティック魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "精霊HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "エルフHP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "妖精HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "竜族HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "魔女HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "幽霊HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "獣人HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "ミスティックHP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 7,
+          "gold": 15000
+        },
+        {
+          "name": "進軍開始時コイン",
+          "materialId": "N3",
+          "materialName": "曲がった針金",
+          "count": 7,
+          "gold": 90000
+        }
+      ]
+    },
+    {
+      "stage": 10,
+      "researches": [
+        {
+          "name": "供物量増加",
+          "materialId": "N0",
+          "materialName": "地球から来た鉛",
+          "count": 12,
+          "gold": 500000
+        },
+        {
+          "name": "供物最大累積時間",
+          "materialId": "N6",
+          "materialName": "バラバラの基板",
+          "count": 12,
+          "gold": 200000
+        },
+        {
+          "name": "生産時間減少",
+          "materialId": "N1",
+          "materialName": "柔らか金属",
+          "count": 12,
+          "gold": 100000
+        },
+        {
+          "name": "フォロー指定数増加",
+          "materialId": "R6",
+          "materialName": "LED電球",
+          "count": 7,
+          "gold": 500000
+        },
+        {
+          "name": "精霊物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "エルフ物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "妖精物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "竜族物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "魔女物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "幽霊物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "獣人物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "ミスティック物理攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "精霊魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "エルフ魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "妖精魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "竜族魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "魔女魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "幽霊魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "獣人魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "ミスティック魔法攻撃",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "精霊物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "エルフ物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "妖精物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "竜族物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "魔女物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "幽霊物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "獣人物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "ミスティック物理防御",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "精霊魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "エルフ魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "妖精魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "竜族魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "魔女魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "幽霊魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "獣人魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "ミスティック魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "精霊HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "エルフHP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "妖精HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "竜族HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "魔女HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "幽霊HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "獣人HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "ミスティックHP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 8,
+          "gold": 18000
+        },
+        {
+          "name": "進軍開始時コイン",
+          "materialId": "N3",
+          "materialName": "曲がった針金",
+          "count": 8,
+          "gold": 100000
+        }
+      ]
+    },
+    {
+      "stage": 11,
+      "researches": [
+        {
+          "name": "次元の衝突遺物",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 12,
+          "gold": 250000
+        },
+        {
+          "name": "エーリアス",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 12,
+          "gold": 250000
+        },
+        {
+          "name": "管理スロット",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 12,
+          "gold": 250000
+        },
+        {
+          "name": "バトルジェム",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 12,
+          "gold": 250000
+        },
+        {
+          "name": "ログインゴールド",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 12,
+          "gold": 250000
+        },
+        {
+          "name": "ログインニンジン",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 12,
+          "gold": 250000
+        },
+        {
+          "name": "精霊物理攻撃",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "エルフ物理攻撃",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "妖精物理攻撃",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "竜族物理攻撃",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "魔女物理攻撃",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "幽霊物理攻撃",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "獣人物理攻撃",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "ミスティック物理攻撃",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "精霊魔法攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "エルフ魔法攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "妖精魔法攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "竜族魔法攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "魔女魔法攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "幽霊魔法攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "獣人魔法攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "ミスティック魔法攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "精霊物理防御",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "エルフ物理防御",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "妖精物理防御",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "竜族物理防御",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "魔女物理防御",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "幽霊物理防御",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "獣人物理防御",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "ミスティック物理防御",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "精霊魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "エルフ魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "妖精魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "竜族魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "魔女魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "幽霊魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "獣人魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "ミスティック魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "精霊HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "エルフHP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "妖精HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "竜族HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "魔女HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "幽霊HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "獣人HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "ミスティックHP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 12,
+          "gold": 30000
+        },
+        {
+          "name": "進軍開始時コイン",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 12,
+          "gold": 110000
+        }
+      ]
+    },
+    {
+      "stage": 12,
+      "researches": [
+        {
+          "name": "次元の衝突遺物",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 15,
+          "gold": 300000
+        },
+        {
+          "name": "エーリアス",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 15,
+          "gold": 300000
+        },
+        {
+          "name": "管理スロット",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 15,
+          "gold": 300000
+        },
+        {
+          "name": "バトルジェム",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 15,
+          "gold": 300000
+        },
+        {
+          "name": "ログインゴールド",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 15,
+          "gold": 300000
+        },
+        {
+          "name": "ログインニンジン",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 15,
+          "gold": 300000
+        },
+        {
+          "name": "精霊物理攻撃",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "エルフ物理攻撃",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "妖精物理攻撃",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "竜族物理攻撃",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "魔女物理攻撃",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "幽霊物理攻撃",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "獣人物理攻撃",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "ミスティック物理攻撃",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "精霊魔法攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "エルフ魔法攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "妖精魔法攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "竜族魔法攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "魔女魔法攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "幽霊魔法攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "獣人魔法攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "ミスティック魔法攻撃",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "精霊物理防御",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "エルフ物理防御",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "妖精物理防御",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "竜族物理防御",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "魔女物理防御",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "幽霊物理防御",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "獣人物理防御",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "ミスティック物理防御",
+          "materialId": "SR3",
+          "materialName": "キャラのハンコ",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "精霊魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "エルフ魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "妖精魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "竜族魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "魔女魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "幽霊魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "獣人魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "ミスティック魔法防御",
+          "materialId": "SR2",
+          "materialName": "金の匙",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "精霊HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "エルフHP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "妖精HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "竜族HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "魔女HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "幽霊HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "獣人HP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "ミスティックHP",
+          "materialId": "SR1",
+          "materialName": "徹夜アイマスク",
+          "count": 15,
+          "gold": 35000
+        },
+        {
+          "name": "進軍開始時コイン",
+          "materialId": "SR0",
+          "materialName": "感性コア",
+          "count": 15,
+          "gold": 120000
+        }
+      ]
+    }
+  ]
+}
