@@ -3,22 +3,29 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="dark">
+<meta name="color-scheme" content="light">
 <title>トリッカル 素材計算</title>
 <!--__STYLE__-->
 </head>
-<body>
+<body data-tab="research">
 <a class="skip-link" href="#main">本文へ</a>
 
 <header class="app-header">
   <div class="brand">
-    <p class="eyebrow">TRICKCAL / MATERIAL DESK</p>
-    <h1>素材計算</h1>
-    <p class="sub">生産ラボと研究に必要な素材を、手持ちから逆算する。</p>
+    <h1>トリッカル 素材計算</h1>
   </div>
-  <div class="tabbar" role="group" aria-label="計算対象">
-    <button type="button" class="tab is-active" data-tab="lab" aria-pressed="true">生産ラボ</button>
-    <button type="button" class="tab" data-tab="research" aria-pressed="false">研究</button>
+  <div class="header-side">
+    <div class="tabbar" role="group" aria-label="計算対象">
+      <button type="button" class="tab is-active" data-tab="research" aria-pressed="true">研究</button>
+      <button type="button" class="tab" data-tab="lab" aria-pressed="false">生産ラボ</button>
+      <button type="button" class="tab" data-tab="hq" aria-pressed="false">本部</button>
+    </div>
+    <div class="header-tools">
+      <button type="button" class="btn-tool" id="open-owned" aria-haspopup="dialog">
+        所持素材<span class="count-badge" id="owned-count" hidden>0</span>
+      </button>
+      <button type="button" class="btn-tool" id="open-info" aria-haspopup="dialog">情報</button>
+    </div>
   </div>
 </header>
 
@@ -26,67 +33,54 @@
   <section class="panel controls" aria-labelledby="controls-title">
     <h2 id="controls-title" class="sr-only">計算条件</h2>
     <div class="control-row">
-      <label for="stage-select" id="stage-label">挑戦中のレベル（このレベルを含む）</label>
+      <label for="stage-select" id="stage-label">現在のレベル</label>
       <div class="select-wrap">
         <select id="stage-select"></select>
       </div>
       <p class="readout" id="range-readout"></p>
     </div>
 
+    <div class="research-name-row" id="research-name-row" hidden>
+      <label for="research-name-select" class="research-name-label">現在の研究</label>
+      <div class="select-wrap research-name-select-wrap">
+        <select id="research-name-select"></select>
+      </div>
+    </div>
+
     <div class="summary">
       <div class="stat">
-        <span class="stat-label">残りの不足</span>
-        <strong class="stat-value" id="stat-short">—</strong>
-        <span class="stat-unit">品目</span>
-      </div>
-      <div class="stat">
-        <span class="stat-label">残り範囲の金</span>
-        <strong class="stat-value" id="stat-gold-scope">—</strong>
-      </div>
-      <div class="stat">
-        <span class="stat-label">全期間の金</span>
-        <strong class="stat-value" id="stat-gold-all">—</strong>
+        <span class="stat-label" id="stat-label-stage">次の金額</span>
+        <strong class="stat-value" id="stat-gold-stage">—</strong>
+        <span class="stat-unit">G</span>
       </div>
     </div>
 
     <p class="storage-note" id="storage-note" role="status" hidden></p>
   </section>
 
-  <details class="card owned-panel" id="owned-panel">
-    <summary>
-      <span>所持素材を入力</span>
-      <span class="summary-meta" id="owned-count"></span>
-    </summary>
-    <div class="owned-body" id="owned-body"></div>
-  </details>
-
   <section class="card" aria-labelledby="main-title">
     <div class="card-head">
       <h2 id="main-title">必要素材</h2>
-      <p class="card-note">選んだ範囲で必要になる中間素材（SR / R / N）。</p>
+      <p class="card-note">選んだ範囲で必要になる全素材（SSR / SR / R / N）。所持数は「所持」列からも入力できます。</p>
     </div>
     <div class="table-wrap">
       <table class="data-table">
-        <caption class="sr-only">必要素材と残りの不足</caption>
+        <caption class="sr-only">残り必要数と所持数</caption>
         <thead>
           <tr>
             <th scope="col">素材</th>
-            <th scope="col">この段階</th>
-            <th scope="col">残り必要</th>
-            <th scope="col">全期間</th>
+            <th scope="col">残り必要数</th>
             <th scope="col">所持</th>
-            <th scope="col">残りの不足</th>
           </tr>
         </thead>
         <tbody id="main-body"></tbody>
       </table>
     </div>
-    <p class="footnote">階層をまたいだ合計は二重計上になります。実際に集める数は下の「基礎素材への展開」を見てください。「残りの不足」は上位素材の所持も反映します。</p>
   </section>
 
   <details class="card">
     <summary>
-      <span>段階ごとの内訳</span>
+      <span id="stage-detail-title">段階ごとの内訳</span>
       <span class="summary-meta" id="stage-meta"></span>
     </summary>
     <div class="table-wrap">
@@ -104,35 +98,62 @@
     </div>
   </details>
 
-  <details class="card" open>
-    <summary>
-      <span>基礎素材への展開</span>
-      <span class="summary-meta" id="base-meta"></span>
-    </summary>
-    <div class="table-wrap">
-      <table class="data-table">
-        <caption class="sr-only">基礎素材の必要数と不足</caption>
-        <thead>
-          <tr>
-            <th scope="col">基礎素材</th>
-            <th scope="col">残り必要</th>
-            <th scope="col">全期間</th>
-            <th scope="col">所持</th>
-            <th scope="col">残りの不足</th>
-          </tr>
-        </thead>
-        <tbody id="base-body"></tbody>
-      </table>
-    </div>
-    <p class="footnote">レシピを基礎素材まで展開した数です。所持している中間素材は、その分の下位素材を減らします。</p>
-  </details>
-
   <p id="live-status" class="sr-only" role="status" aria-live="polite"></p>
 </main>
 
-<footer class="app-footer">
-  <p>データは <code>docs/素材テーブル.json</code> と各必要素材JSONから生成。<code>uv run --no-project python tools/build_site.py</code> で再生成。</p>
-</footer>
+<dialog class="modal" id="owned-dialog" aria-labelledby="owned-dialog-title">
+  <div class="modal-panel">
+    <div class="modal-head">
+      <div>
+        <h2 id="owned-dialog-title">所持素材</h2>
+        <p class="modal-note" id="owned-summary">未入力</p>
+      </div>
+      <button type="button" class="modal-close" data-close aria-label="閉じる">×</button>
+    </div>
+    <div class="modal-tools">
+      <div class="search-wrap">
+        <input type="search" id="owned-search" class="owned-search" placeholder="素材名で検索" autocomplete="off" aria-label="素材名で検索">
+      </div>
+      <div class="tier-filter" id="owned-tier-filter" role="group" aria-label="レアリティで絞り込み">
+        <button type="button" class="tier-filter-btn is-active" data-tier="all" aria-pressed="true">すべて</button>
+        <button type="button" class="tier-filter-btn" data-tier="3" aria-pressed="false">SSR</button>
+        <button type="button" class="tier-filter-btn" data-tier="2" aria-pressed="false">SR</button>
+        <button type="button" class="tier-filter-btn" data-tier="1" aria-pressed="false">R</button>
+        <button type="button" class="tier-filter-btn" data-tier="0" aria-pressed="false">N</button>
+      </div>
+    </div>
+    <div class="owned-body" id="owned-body"></div>
+    <p class="owned-empty" id="owned-empty" hidden>該当する素材がありません。</p>
+    <div class="modal-foot">
+      <button type="button" id="reset-owned" class="btn-reset">所持数をすべて消す</button>
+      <button type="button" class="btn-close" data-close>閉じる</button>
+    </div>
+  </div>
+</dialog>
+
+<dialog class="modal modal-narrow" id="info-dialog" aria-labelledby="info-dialog-title">
+  <div class="modal-panel">
+    <div class="modal-head">
+      <h2 id="info-dialog-title">このサイトについて</h2>
+      <button type="button" class="modal-close" data-close aria-label="閉じる">×</button>
+    </div>
+    <div class="info-body">
+      <p class="info-lead">トリッカルの生産ラボ・研究・本部レベルに必要な素材を、手持ちから逆算するサイトです。</p>
+      <dl class="info-list">
+        <div><dt>バージョン</dt><dd>v0.1.0</dd></div>
+        <div><dt>公開日</dt><dd><time datetime="2026-11-01">2026-11-01</time></dd></div>
+      </dl>
+      <h3 class="info-heading">更新履歴</h3>
+      <ul class="changelog">
+        <li><span class="changelog-version">v0.1.0</span><time datetime="2026-11-01">2026-11-01</time><span class="changelog-text">初回公開</span></li>
+      </ul>
+      <p class="info-note">本サイトは試作品です。本サイトの利用によって生じた損害について、一切の補償をいたしません。予めご了承ください。</p>
+    </div>
+    <div class="modal-foot">
+      <button type="button" class="btn-close" data-close>閉じる</button>
+    </div>
+  </div>
+</dialog>
 
 <noscript><p class="noscript">この画面の計算には JavaScript が必要です。</p></noscript>
 

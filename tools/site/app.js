@@ -12,7 +12,8 @@
     byLevel[m.level].push(m);
   });
 
-  var TIER_LABEL = { 0: "C", 1: "N", 2: "R", 3: "SR" };
+  var TIER_LABEL = { 0: "N", 1: "R", 2: "SR", 3: "SSR" };
+  // CSSクラス名は旧レアリティ名のまま。色と段階の対応を維持するための内部名。
   var TIER_CLASS = { 0: "tier-c", 1: "tier-n", 2: "tier-r", 3: "tier-sr" };
 
   var TABS = {
@@ -20,7 +21,7 @@
       label: "生産ラボ",
       levelWord: "レベル",
       stages: payload.lab.levels,
-      min: 2,
+      min: 1,
       max: 12
     },
     research: {
@@ -29,6 +30,13 @@
       stages: payload.research.stages,
       min: 1,
       max: 12
+    },
+    hq: {
+      label: "本部",
+      levelWord: "レベル",
+      stages: payload.hq.levels,
+      min: 1,
+      max: 10
     }
   };
 
@@ -36,8 +44,9 @@
   var nf = new Intl.NumberFormat("ja-JP");
 
   var state = {
-    tab: "lab",
-    selected: { lab: 2, research: 1 },
+    tab: "research",
+    selected: { lab: 1, research: 1, hq: 1 },
+    researchName: "",
     owned: Object.create(null),
     storageOk: true
   };
@@ -77,7 +86,7 @@
   }
 
   function stageLabel(tab, value) {
-    return tab === "lab" ? "Lv." + value : "段階 " + value;
+    return tab === "research" ? "段階 " + value : "Lv." + value;
   }
 
   function setText(id, text) {
@@ -111,15 +120,36 @@
     return result;
   }
 
-  // owned === null: 所持を無視した展開後のグロス必要数
-  // owned !== null: 階層差し引き後の残りの不足
-  function expand(direct, owned) {
+  // direct(その段階・範囲の直接要求)をレシピで下位素材に展開した
+  // 必要数(グロス)を返す。所持は表の「所持」列で別に表示する。
+  function expand(direct) {
     var gross = new Map(direct);
     var net = new Map();
 
     [3, 2, 1, 0].forEach(function (level) {
       byLevel[level].forEach(function (mat) {
-        var have = owned ? Math.max(0, Math.floor(owned[mat.id] || 0)) : 0;
+        var need = Math.max(0, gross.get(mat.id) || 0);
+        net.set(mat.id, need);
+        mat.recipe.forEach(function (ingredient) {
+          var id = ingredient[0];
+          gross.set(id, (gross.get(id) || 0) + need * ingredient[1]);
+        });
+      });
+    });
+
+    return net;
+  }
+
+  // 実際に生産すべき数（残り必要数）。上位素材から順に
+  // 「必要数 − 所持 = 作る数」を計算し、その作る数に応じて
+  // 下位素材の必要数を展開する（所持分だけ下位の免除が連動する）。
+  function craftNumber(direct, owned) {
+    var gross = new Map(direct);
+    var net = new Map();
+
+    [3, 2, 1, 0].forEach(function (level) {
+      byLevel[level].forEach(function (mat) {
+        var have = Math.max(0, Math.floor(owned[mat.id] || 0));
         var need = Math.max(0, (gross.get(mat.id) || 0) - have);
         net.set(mat.id, need);
         mat.recipe.forEach(function (ingredient) {
@@ -132,26 +162,36 @@
     return net;
   }
 
-  function flatten(stages) {
-    var entries = [];
-    for (var i = 0; i < stages.length; i++) {
-      entries = entries.concat(stages[i].entries);
+  // 表示に使う段階のエントリ。研究タブで研究名が選ばれているときは、
+  // 選択段階内では「その研究から先（リスト順）」を現在位置として扱う。
+  function stageDisplay(stage, name, selected) {
+    var list = stage.entries;
+    if (name && stage.value === selected) {
+      var index = -1;
+      for (var i = 0; i < list.length; i++) {
+        if (list[i].name === name) {
+          index = i;
+          break;
+        }
+      }
+      list = index >= 0 ? list.slice(index) : [];
     }
-    return entries;
+    return list;
   }
 
-  function sumGold(stages) {
+  function stageGold(stage, name, selected, tab) {
+    if (tab === "lab") return stage.gold;
     var total = 0;
-    for (var i = 0; i < stages.length; i++) total += stages[i].gold;
+    var entries = stageDisplay(stage, name, selected);
+    for (var i = 0; i < entries.length; i++) total += entries[i].gold || 0;
     return total;
   }
 
-  function rowCmp(a, b, shortages) {
-    var sa = shortages.get(a.id) || 0;
-    var sb = shortages.get(b.id) || 0;
-    if ((sa > 0) !== (sb > 0)) return sa > 0 ? -1 : 1;
-    if (sa !== sb) return sb - sa;
+  function rowCmp(a, b, remains) {
     if (a.level !== b.level) return b.level - a.level;
+    var sa = remains.get(a.id) || 0;
+    var sb = remains.get(b.id) || 0;
+    if (sa !== sb) return sb - sa;
     return idNum(a.id) - idNum(b.id);
   }
 
@@ -175,62 +215,43 @@
     );
   }
 
-  function numCell(label, value) {
-    return '<td data-label="' + label + '"><span class="num">' + fmt(value) + "</span></td>";
-  }
-
-  function shortCell(shortage) {
-    if (shortage > 0) {
-      return (
-        '<td class="cell-short" data-label="残りの不足"><span class="short-badge">不足</span><strong>' +
-        fmt(shortage) +
-        "</strong></td>"
-      );
-    }
-    return '<td data-label="残りの不足"><span class="ok-badge">充足</span></td>';
-  }
-
   function emptyRow(cols, message) {
     return '<tr class="empty-row"><td colspan="' + cols + '">' + esc(message) + "</td></tr>";
   }
 
-  function mainRow(m, stageReq, scopeReq, allReq, scopeShort) {
+  // メイン表は「素材 / 残り必要数 / 所持」の3列。
+  // 残り必要数 = 実際に生産する個数(所持を上位から連動して差し引いた値)。
+  // 足りている行は青+薄く、足りない行は赤で強調する。
+  function mainRow(m, remainReq) {
     var owned = state.owned[m.id] || 0;
-    var short = scopeShort.get(m.id) || 0;
-    var cls = "tier-" + TIER_LABEL[m.level].toLowerCase() + (short > 0 ? "" : " is-ok");
+    var remain = remainReq.get(m.id) || 0;
+    var ok = remain === 0;
     return (
       '<tr class="' +
-      cls +
+      TIER_CLASS[m.level] +
+      (ok ? " is-covered" : "") +
       '">' +
       materialCell(m) +
-      numCell("この段階", stageReq.get(m.id) || 0) +
-      numCell("残り必要", scopeReq.get(m.id) || 0) +
-      numCell("全期間", allReq.get(m.id) || 0) +
-      numCell("所持", owned) +
-      shortCell(short) +
+      '<td data-label="残り必要数"><span class="num ' +
+      (ok ? "num-ok" : "num-short") +
+      '">' +
+      fmt(remain) +
+      "</span></td>" +
+      '<td data-label="所持"><button type="button" class="owned-link" data-owned-id="' +
+      esc(m.id) +
+      '" aria-label="' +
+      esc(m.name) +
+      'の所持数を入力" title="所持数を入力"><span class="num">' +
+      fmt(owned) +
+      "</span></button></td>" +
       "</tr>"
     );
   }
 
-  function baseRow(m, scopeReq, allReq, scopeShort) {
-    var owned = state.owned[m.id] || 0;
-    var short = scopeShort.get(m.id) || 0;
-    var cls = "tier-c" + (short > 0 ? "" : " is-ok");
-    return (
-      '<tr class="' +
-      cls +
-      '">' +
-      materialCell(m) +
-      numCell("残り必要", scopeReq.get(m.id) || 0) +
-      numCell("全期間", allReq.get(m.id) || 0) +
-      numCell("所持", owned) +
-      shortCell(short) +
-      "</tr>"
-    );
-  }
-
-  function stageRow(stage, selected, tab) {
-    var pairs = Array.from(aggregate(stage.entries).entries());
+  // currentWork: いま支援すべき段階。生産ラボは「選択中のLvの1つ上」の段階が現在地。
+  // currentName: 研究タブで選択中の研究名。現在段階の内訳で完了/現在を判定する。
+  function stageRow(stage, entries, selected, tab, gold, currentWork, currentName) {
+    var pairs = Array.from(aggregate(entries).entries());
     pairs.sort(function (a, b) {
       var ma = byId.get(a[0]);
       var mb = byId.get(b[0]);
@@ -256,17 +277,112 @@
       .join("");
 
     var status = "";
-    if (stage.value < selected) {
+    if (stage.value < currentWork) {
       status = '<span class="stage-status is-done">完了</span>';
-    } else if (stage.value === selected) {
-      status = '<span class="stage-status is-current">挑戦中</span>';
+    } else if (stage.value === currentWork) {
+      status = '<span class="stage-status is-current">現在</span>';
     }
 
     var detail = "";
-    if (tab === "lab" && stage.reward) {
+    if (tab === "research") {
+      // 研究ごとに「◯◯ 必要素材」と、要求されている素材の画像だけを並べる。
+      // 同じ研究名が複数素材を要求する場合も1行にまとめる。
+      var groups = [];
+      var groupMap = Object.create(null);
+      entries.forEach(function (e) {
+        var key = e.name || "";
+        var group = groupMap[key];
+        if (!group) {
+          group = { name: e.name, mats: [] };
+          groupMap[key] = group;
+          groups.push(group);
+        }
+        group.mats.push(e);
+      });
+
+      // 現在段階の内訳は全研究を表示する。選択中の研究より前を「完了」、
+      // 選択中の研究を「現在」として扱う。
+      var currentIndex = -1;
+      if (currentName && stage.value === selected) {
+        for (var gi = 0; gi < groups.length; gi++) {
+          if (groups[gi].name === currentName) {
+            currentIndex = gi;
+            break;
+          }
+        }
+      }
+
+      var lines = groups
+        .map(function (group, index) {
+          var matHtml = Array.from(aggregate(group.mats).entries())
+            .sort(function (a, b) {
+              var ma = byId.get(a[0]);
+              var mb = byId.get(b[0]);
+              if (ma && mb && ma.level !== mb.level) return mb.level - ma.level;
+              return idNum(a[0]) - idNum(b[0]);
+            })
+            .map(function (pair) {
+              var mat = byId.get(pair[0]);
+              if (!mat) return "";
+              var icon = mat.icon
+                ? '<img class="detail-icon" src="' +
+                  mat.icon +
+                  '" alt="' +
+                  esc(mat.name) +
+                  '" title="' +
+                  esc(mat.name) +
+                  '">'
+                : '<span class="detail-mat-name">' + esc(mat.name) + "</span>";
+              return (
+                '<span class="detail-mat">' +
+                icon +
+                '<span class="detail-count">×' +
+                fmt(pair[1]) +
+                "</span></span>"
+              );
+            })
+            .join("");
+
+          var itemStatus = "";
+          if (stage.value < selected) {
+            itemStatus = '<span class="stage-status is-done">完了</span>';
+          } else if (stage.value === selected) {
+            if (!currentName) {
+              if (index === 0) {
+                itemStatus = '<span class="stage-status is-current">現在</span>';
+              }
+            } else if (index < currentIndex) {
+              itemStatus = '<span class="stage-status is-done">完了</span>';
+            } else if (index === currentIndex) {
+              itemStatus = '<span class="stage-status is-current">現在</span>';
+            }
+          }
+          return (
+            '<div class="detail-line">' +
+            '<span class="detail-name">' +
+            esc(group.name) +
+            '<span class="detail-label">必要素材</span></span>' +
+            '<span class="detail-mats">' +
+            matHtml +
+            "</span>" +
+            itemStatus +
+            "</div>"
+          );
+        })
+        .join("");
+      detail =
+        '<span class="reward">' +
+        entries.length +
+        "件</span>" +
+        '<details class="stage-detail" data-stage="' +
+        stage.value +
+        '"><summary>研究ごとの必要素材を見る（' +
+        entries.length +
+        '件）</summary><div class="stage-detail-list">' +
+        lines +
+        "</div></details>";
+    } else if (stage.reward) {
       detail = '<span class="reward">' + esc(stage.reward) + "</span>";
-    } else if (tab === "research") {
-      detail = '<span class="reward">' + stage.entries.length + "件</span>";
     }
 
     return (
@@ -274,12 +390,12 @@
       esc(stageLabel(tab, stage.value)) +
       "</span>" +
       status +
-      '</td><td data-label="必要素材"><div class="chips">' +
+      '</td><td class="cell-materials" data-label="必要素材"><div class="chips">' +
       chips +
       "</div>" +
       detail +
       '</td><td data-label="金"><span class="num">' +
-      fmt(stage.gold) +
+      fmt(gold) +
       "</span></td></tr>"
     );
   }
@@ -289,89 +405,209 @@
     MATERIALS.forEach(function (m) {
       if ((state.owned[m.id] || 0) > 0) count++;
     });
-    setText("owned-count", count > 0 ? count + "品目に入力" : "未入力");
+    var badge = document.getElementById("owned-count");
+    if (badge) {
+      badge.textContent = String(count);
+      badge.hidden = count === 0;
+    }
+    setText("owned-summary", count > 0 ? count + "品目に入力" : "未入力");
+  }
+
+  function researchNames() {
+    // 現在位置の指定に使うので、選択段階の研究リスト(表示順)を返す。
+    var def = TABS.research;
+    var selected = state.selected.research;
+    var current = null;
+    for (var i = 0; i < def.stages.length; i++) {
+      if (def.stages[i].value === selected) {
+        current = def.stages[i];
+        break;
+      }
+    }
+    if (!current) return [];
+
+    var seen = Object.create(null);
+    var names = [];
+    current.entries.forEach(function (entry) {
+      if (!entry.name || seen[entry.name]) return;
+      seen[entry.name] = true;
+      names.push(entry.name);
+    });
+    return names;
+  }
+
+  function renderResearchNames() {
+    var row = document.getElementById("research-name-row");
+    var select = document.getElementById("research-name-select");
+    if (!row || !select) return;
+
+    if (state.tab !== "research") {
+      row.hidden = true;
+      return;
+    }
+
+    var names = researchNames();
+    if (state.researchName && names.indexOf(state.researchName) < 0) {
+      state.researchName = "";
+    }
+
+    row.hidden = names.length === 0;
+    if (!names.length) {
+      select.innerHTML = "";
+      return;
+    }
+
+    var html = '<option value="">未着手</option>';
+    names.forEach(function (name) {
+      html +=
+        '<option value="' + esc(name) + '">' + esc(name) + "</option>";
+    });
+
+    if (select.innerHTML !== html) select.innerHTML = html;
+    select.value = state.researchName;
+  }
+
+  // 研究の段階内訳はアコーディオン(同時に1つだけ開く)。
+  function onStageDetailToggle(event) {
+    var current = event.currentTarget;
+    if (!current.open) return;
+    var nodes = document.querySelectorAll("#stage-body .stage-detail");
+    for (var i = 0; i < nodes.length; i++) {
+      if (nodes[i] !== current) nodes[i].open = false;
+    }
   }
 
   function renderComputed() {
     var def = TABS[state.tab];
-    var selected = state.selected[state.tab];
+    var tab = state.tab;
+    var selected = state.selected[tab];
+    renderResearchNames();
+    var name = tab === "research" ? state.researchName : "";
+
+    // 生産ラボ・本部: 選択中のレベルは完成済みとして「次」のレベルから最大までを集計する。
+    // 研究: 選択中の段階(研究名を選んでいるときはその研究以降)から最終段階までを集計する。
     var scope = def.stages.filter(function (stage) {
-      return stage.value >= selected;
+      return tab === "research" ? stage.value >= selected : stage.value > selected;
     });
-    var all = def.stages;
+    var focusStage = scope.length ? scope[0] : null;
 
-    var stageDirect = aggregate(scope[0].entries);
-    var scopeDirect = aggregate(flatten(scope));
-    var allDirect = aggregate(flatten(all));
+    function collect(getList) {
+      var entries = [];
+      getList().forEach(function (stage) {
+        entries = entries.concat(
+          tab === "research" ? stageDisplay(stage, name, selected) : stage.entries
+        );
+      });
+      return entries;
+    }
 
-    var stageReq = expand(stageDirect, null);
+    var scopeDirect = aggregate(collect(function () { return scope; }));
     var scopeReq = expand(scopeDirect, null);
-    var allReq = expand(allDirect, null);
-    var scopeShort = expand(scopeDirect, state.owned);
 
-    var goldScope = sumGold(scope);
-    var goldAll = sumGold(all);
+    // 生産ラボ・本部は「次の金額」= 選択中のレベルの1つ上の金。研究は今の位置〜段階末の金。
+    var goldStage = focusStage
+      ? (tab === "research"
+          ? stageGold(focusStage, name, selected, tab)
+          : focusStage.gold)
+      : 0;
 
-    var shortCount = 0;
-    MATERIALS.forEach(function (m) {
-      if ((scopeShort.get(m.id) || 0) > 0) shortCount++;
-    });
-
-    setText("stat-short", fmt(shortCount));
-    setText("stat-gold-scope", fmt(goldScope));
-    setText("stat-gold-all", fmt(goldAll));
+    setText(
+      "stat-label-stage",
+      tab === "research"
+        ? "この段階をすべて終わらせるまでに必要な金額"
+        : "次の金額"
+    );
+    setText("stat-gold-stage", focusStage ? fmt(goldStage) : "—");
     setText(
       "range-readout",
-      stageLabel(state.tab, selected) +
-        " 〜 " +
-        stageLabel(state.tab, def.max) +
-        "（" +
-        scope.length +
-        "段階）"
+      def.label + "の最大" + def.levelWord + ": " + def.max
+    );
+    setText(
+      "stage-detail-title",
+      tab === "research" ? "研究の段階ごとの内訳" : "段階ごとの内訳"
     );
     updateOwnedMeta();
 
+    // 「残り必要数」= 実際に生産すべき数。所持を上位から階層的に差し引き、
+    // 上位の不足分(作る数)に応じて下位素材の必要数も連動して減る。
+    var remainReq = craftNumber(scopeDirect, state.owned);
+
     var mainRows = MATERIALS.filter(function (m) {
       return (
-        m.level > 0 &&
-        ((scopeReq.get(m.id) || 0) > 0 || (state.owned[m.id] || 0) > 0)
+        (scopeReq.get(m.id) || 0) > 0 ||
+        (!name && focusStage && (state.owned[m.id] || 0) > 0)
       );
     });
     mainRows.sort(function (a, b) {
-      return rowCmp(a, b, scopeShort);
+      return rowCmp(a, b, remainReq);
     });
 
     document.getElementById("main-body").innerHTML = mainRows.length
       ? mainRows
           .map(function (m) {
-            return mainRow(m, stageReq, scopeReq, allReq, scopeShort);
+            return mainRow(m, remainReq);
           })
           .join("")
-      : emptyRow(6, "この範囲で必要な中間素材はありません。");
+      : emptyRow(
+          3,
+          focusStage
+            ? "この範囲で必要な素材はありません。"
+            : "素材必要なし(最大" + def.levelWord + "です)。"
+        );
 
-    var baseRows = byLevel[0].filter(function (m) {
-      return (scopeReq.get(m.id) || 0) > 0 || (state.owned[m.id] || 0) > 0;
+    // 段階内訳は、生産ラボ・本部と同じく全段階を常に表示する。
+    // 研究名による絞り込みは上の必要素材集計にだけ使い、内訳では完了/現在の表示に使う。
+    var stageList = def.stages;
+    // 生産ラボ・本部は「選択Lvの1つ上」が作業中の段階。研究は選択段階そのものが現在地。
+    var currentWork = tab === "research" ? selected : selected + 1;
+
+    var metaGold = 0;
+    var rows = [];
+
+    // 開いていた段階の研究内訳は再描画後も開いたままにする(アコーディオン)。
+    var openStages = Object.create(null);
+    var openNodes = document.querySelectorAll("#stage-body .stage-detail[open]");
+    for (var oi = 0; oi < openNodes.length; oi++) {
+      openStages[openNodes[oi].getAttribute("data-stage")] = true;
+    }
+
+    if (tab !== "research") {
+      // Lv.1 は生産ラボ・本部の初期状態(素材要件なし)。内訳にも明示する。
+      rows.push(
+        '<tr><td class="stage-cell" data-label="段階"><span class="stage-no">' +
+          esc(stageLabel(tab, 1)) +
+          "</span>" +
+          (1 < currentWork ? '<span class="stage-status is-done">完了</span>' : "") +
+          '</td><td class="cell-materials" data-label="必要素材"><div class="chips">' +
+          '<span class="chip-note">初期状態(必要素材なし)</span>' +
+          "</div></td>" +
+          '<td data-label="金"><span class="num">—</span></td></tr>'
+      );
+    }
+    stageList.forEach(function (stage) {
+      metaGold += stage.gold;
+      rows.push(
+        stageRow(stage, stage.entries, selected, tab, stage.gold, currentWork, name)
+      );
     });
-    baseRows.sort(function (a, b) {
-      return rowCmp(a, b, scopeShort);
-    });
+    document.getElementById("stage-body").innerHTML = rows.join("");
 
-    document.getElementById("base-body").innerHTML = baseRows.length
-      ? baseRows
-          .map(function (m) {
-            return baseRow(m, scopeReq, allReq, scopeShort);
-          })
-          .join("")
-      : emptyRow(5, "この範囲で必要な基礎素材はありません。");
+    var detailNodes = document.querySelectorAll("#stage-body .stage-detail");
+    for (var di = 0; di < detailNodes.length; di++) {
+      var detailNode = detailNodes[di];
+      if (openStages[detailNode.getAttribute("data-stage")]) {
+        detailNode.open = true;
+      }
+      detailNode.addEventListener("toggle", onStageDetailToggle);
+    }
 
-    document.getElementById("stage-body").innerHTML = all
-      .map(function (stage) {
-        return stageRow(stage, selected, state.tab);
-      })
-      .join("");
-
-    setText("stage-meta", all.length + "段階 / 金 " + fmt(goldAll));
-    setText("base-meta", baseRows.length + "種");
+    var rowCount = tab === "research" ? stageList.length : stageList.length + 1;
+    setText(
+      "stage-meta",
+      (name ? "現在: " + name + " / " : "") +
+        "全" + rowCount + "段階 / 金 " +
+        fmt(metaGold)
+    );
   }
 
   // ---------- owned inputs ----------
@@ -382,6 +618,8 @@
       : '<span class="mat-icon-fallback" aria-hidden="true">' + esc(m.name.charAt(0)) + "</span>";
     var label = document.createElement("label");
     label.className = "owned-item";
+    label.dataset.name = m.name;
+    label.dataset.tier = String(m.level);
     label.innerHTML =
       icon +
       '<span class="owned-name">' +
@@ -407,51 +645,17 @@
     var body = document.getElementById("owned-body");
     body.innerHTML = "";
 
-    var groups = [
-      {
-        legend: "中間素材（SR / R / N）",
-        items: MATERIALS.filter(function (m) {
-          return m.level > 0;
-        })
-      },
-      {
-        legend: "基礎素材（C）",
-        items: MATERIALS.filter(function (m) {
-          return m.level === 0;
-        })
-      }
-    ];
-
-    groups[0].items.sort(function (a, b) {
+    var items = MATERIALS.slice().sort(function (a, b) {
       if (a.level !== b.level) return b.level - a.level;
       return idNum(a.id) - idNum(b.id);
     });
-    groups[1].items.sort(function (a, b) {
-      return idNum(a.id) - idNum(b.id);
+
+    var grid = document.createElement("div");
+    grid.className = "owned-grid";
+    items.forEach(function (m) {
+      grid.appendChild(ownedItem(m));
     });
-
-    groups.forEach(function (group) {
-      var fieldset = document.createElement("fieldset");
-      fieldset.className = "owned-group";
-      var legend = document.createElement("legend");
-      legend.textContent = group.legend;
-      fieldset.appendChild(legend);
-
-      var grid = document.createElement("div");
-      grid.className = "owned-grid";
-      group.items.forEach(function (m) {
-        grid.appendChild(ownedItem(m));
-      });
-      fieldset.appendChild(grid);
-      body.appendChild(fieldset);
-    });
-
-    var reset = document.createElement("button");
-    reset.type = "button";
-    reset.id = "reset-owned";
-    reset.className = "btn-reset";
-    reset.textContent = "所持数をすべて消す";
-    body.appendChild(reset);
+    body.appendChild(grid);
   }
 
   function normalizeInput(input) {
@@ -474,9 +678,86 @@
     announce("所持数をすべて消しました");
   }
 
+  // ---------- dialogs ----------
+
+  function showDialog(dialog) {
+    if (!dialog || dialog.open) return;
+    dialog.showModal();
+    document.documentElement.classList.add("modal-open");
+  }
+
+  function closeDialog(dialog) {
+    if (!dialog || !dialog.open) return;
+    dialog.close();
+  }
+
+  function bindDialog(dialog) {
+    if (!dialog) return;
+    dialog.addEventListener("close", function () {
+      if (!document.querySelector("dialog[open]")) {
+        document.documentElement.classList.remove("modal-open");
+      }
+    });
+    dialog.addEventListener("click", function (event) {
+      // パネル外(バックドロップ)をクリックしたときだけ閉じる。
+      if (event.target === dialog) closeDialog(dialog);
+    });
+  }
+
+  var ownedFilter = { query: "", tier: "all" };
+
+  function applyOwnedFilter() {
+    var query = ownedFilter.query.trim().toLowerCase();
+    var items = document.querySelectorAll("#owned-body .owned-item");
+    var visible = 0;
+    for (var i = 0; i < items.length; i++) {
+      var item = items[i];
+      var name = (item.getAttribute("data-name") || "").toLowerCase();
+      var tier = item.getAttribute("data-tier");
+      var show =
+        (ownedFilter.tier === "all" || tier === ownedFilter.tier) &&
+        (!query || name.indexOf(query) >= 0);
+      item.hidden = !show;
+      if (show) visible++;
+    }
+    var empty = document.getElementById("owned-empty");
+    if (empty) empty.hidden = visible > 0;
+  }
+
+  function resetOwnedFilter() {
+    ownedFilter.query = "";
+    ownedFilter.tier = "all";
+    var search = document.getElementById("owned-search");
+    if (search) search.value = "";
+    var buttons = document.querySelectorAll("#owned-tier-filter .tier-filter-btn");
+    for (var i = 0; i < buttons.length; i++) {
+      var active = buttons[i].getAttribute("data-tier") === "all";
+      buttons[i].classList.toggle("is-active", active);
+      buttons[i].setAttribute("aria-pressed", active ? "true" : "false");
+    }
+    applyOwnedFilter();
+  }
+
+  function openOwnedDialog(focusId) {
+    var dialog = document.getElementById("owned-dialog");
+    if (!dialog) return;
+    resetOwnedFilter();
+    var body = dialog.querySelector(".owned-body");
+    if (body) body.scrollTop = 0;
+    showDialog(dialog);
+    if (!focusId) return;
+    var input = dialog.querySelector('input[data-id="' + focusId + '"]');
+    if (!input) return;
+    window.setTimeout(function () {
+      input.focus();
+      input.scrollIntoView({ block: "center" });
+    }, 0);
+  }
+
   // ---------- tabs and selector ----------
 
   function updateTabsUI() {
+    document.body.setAttribute("data-tab", state.tab);
     var buttons = document.querySelectorAll(".tab");
     for (var i = 0; i < buttons.length; i++) {
       var active = buttons[i].getAttribute("data-tab") === state.tab;
@@ -489,16 +770,17 @@
     var def = TABS[state.tab];
     var select = document.getElementById("stage-select");
     select.innerHTML = "";
-    def.stages.forEach(function (stage) {
+    // Lv.1 はデータ段階がなくても「現在のレベル」として選べるようにする。
+    for (var value = def.min; value <= def.max; value++) {
       var option = document.createElement("option");
-      option.value = String(stage.value);
-      option.textContent = stageLabel(state.tab, stage.value);
-      if (stage.value === state.selected[state.tab]) option.selected = true;
+      option.value = String(value);
+      option.textContent = stageLabel(state.tab, value);
+      if (value === state.selected[state.tab]) option.selected = true;
       select.appendChild(option);
-    });
+    }
     setText(
       "stage-label",
-      "挑戦中の" + def.levelWord + "（この" + def.levelWord + "を含む）"
+      "現在の" + def.levelWord
     );
   }
 
@@ -552,10 +834,16 @@
     }
     if (!saved || saved.v !== 1) return;
 
-    if (saved.tab === "lab" || saved.tab === "research") state.tab = saved.tab;
+    if (saved.tab === "lab" || saved.tab === "research" || saved.tab === "hq") {
+      state.tab = saved.tab;
+    }
     if (saved.selected && typeof saved.selected === "object") {
       state.selected.lab = clampStage("lab", saved.selected.lab);
       state.selected.research = clampStage("research", saved.selected.research);
+      state.selected.hq = clampStage("hq", saved.selected.hq);
+    }
+    if (typeof saved.researchName === "string") {
+      state.researchName = saved.researchName;
     }
     if (saved.owned && typeof saved.owned === "object") {
       Object.keys(saved.owned).forEach(function (id) {
@@ -586,6 +874,7 @@
         v: 1,
         tab: state.tab,
         selected: state.selected,
+        researchName: state.researchName,
         owned: owned
       })
     );
@@ -625,8 +914,61 @@
       true
     );
 
-    ownedBody.addEventListener("click", function (event) {
-      if (event.target && event.target.id === "reset-owned") resetOwned();
+    var resetButton = document.getElementById("reset-owned");
+    if (resetButton) resetButton.addEventListener("click", resetOwned);
+
+    var openOwned = document.getElementById("open-owned");
+    if (openOwned) {
+      openOwned.addEventListener("click", function () {
+        openOwnedDialog("");
+      });
+    }
+
+    var openInfo = document.getElementById("open-info");
+    if (openInfo) {
+      openInfo.addEventListener("click", function () {
+        showDialog(document.getElementById("info-dialog"));
+      });
+    }
+
+    var closeButtons = document.querySelectorAll("[data-close]");
+    for (var ci = 0; ci < closeButtons.length; ci++) {
+      closeButtons[ci].addEventListener("click", function (event) {
+        closeDialog(event.currentTarget.closest("dialog"));
+      });
+    }
+
+    bindDialog(document.getElementById("owned-dialog"));
+    bindDialog(document.getElementById("info-dialog"));
+
+    var ownedSearch = document.getElementById("owned-search");
+    if (ownedSearch) {
+      ownedSearch.addEventListener("input", function (event) {
+        ownedFilter.query = event.target.value || "";
+        applyOwnedFilter();
+      });
+    }
+
+    var tierFilter = document.getElementById("owned-tier-filter");
+    if (tierFilter) {
+      tierFilter.addEventListener("click", function (event) {
+        var button = event.target.closest(".tier-filter-btn");
+        if (!button) return;
+        ownedFilter.tier = button.getAttribute("data-tier");
+        var buttons = tierFilter.querySelectorAll(".tier-filter-btn");
+        for (var bi = 0; bi < buttons.length; bi++) {
+          var active = buttons[bi] === button;
+          buttons[bi].classList.toggle("is-active", active);
+          buttons[bi].setAttribute("aria-pressed", active ? "true" : "false");
+        }
+        applyOwnedFilter();
+      });
+    }
+
+    document.getElementById("main-body").addEventListener("click", function (event) {
+      var button = event.target.closest(".owned-link");
+      if (!button) return;
+      openOwnedDialog(button.getAttribute("data-owned-id"));
     });
 
     var tabbar = document.querySelector(".tabbar");
@@ -649,6 +991,19 @@
       buttons[next].focus();
       setTab(buttons[next].getAttribute("data-tab"));
     });
+
+    document
+      .getElementById("research-name-select")
+      .addEventListener("change", function (event) {
+        state.researchName = event.target.value || "";
+        scheduleSave();
+        renderComputed();
+        announce(
+          state.researchName
+            ? "研究「" + state.researchName + "」からこの段階の最後までを集計します"
+            : "未着手から集計します"
+        );
+      });
 
     document.getElementById("stage-select").addEventListener("change", function (event) {
       state.selected[state.tab] = clampStage(state.tab, Number(event.target.value));

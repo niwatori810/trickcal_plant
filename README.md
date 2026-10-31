@@ -14,6 +14,10 @@ https://github.com/niwatori810/trickcal_plant
 - `tools/site/template.html` / `style.css` / `app.js` — 画面の元ファイル
 - `tools/build_site.py` — データと画面の元ファイルから `docs/index.html` を生成
 
+## バージョン・公開日
+
+バージョンと公開日は `tools/site/template.html` の情報モーダル（`#info-dialog`）で管理しています。更新したら `docs/index.html` を再生成してください。
+
 ## 再生成
 
 データや画面を変更したら、リポジトリ直下で:
